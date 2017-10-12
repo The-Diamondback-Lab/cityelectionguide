@@ -1,1 +1,1 @@
-var cityApp = angular.module("cityApp",[]);
+var cityApp = angular.module("cityApp",["ui.router"]);
