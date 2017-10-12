@@ -13,7 +13,7 @@ function LodashFactory($window) {
 LodashFactory.$inject = ['$window'];
 
 // Register factory
-myApp.factory('_', LodashFactory);
+cityApp.factory('_', LodashFactory);
 
 cityApp.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
 
