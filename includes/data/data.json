@@ -1,0 +1,156 @@
+{
+  "Chen":{
+    "full-name": "Tom Chen",
+    "election": "mayor",
+    "bio": "Chen has been a restaurant owner and landlord for students since he moved to College Park 22 years ago, which he said lends him experience in balancing student and resident interests.
+
+“I see student[s] treat[ed] very unfairly by the city and this community, and they should treat [them] better,” Chen said.
+
+The current absentee system contributes to student disenfranchisement, said his campaign manager, Jacob Orgel, a junior government and politics and journalism major, since it doesn’t allow students in class during election day to file an absentee ballot.
+
+Chen’s campaign slogan is to put “The college back in College Park.” His platform focuses on increasing student lines of communication to the city, promoting sexual assault prevention discussions and pursuing public safety, which includes seeking to establish a city-sponsored NITE Ride service.
+
+“I like the current mayor, and he do[es] [a] good job, but he should focus [on] all the community, not just in Old Town area,” Chen said when speaking about public safety. “That is also one other major concern for the community as well — all the community should be treated equally [in safety efforts].”
+
+Chen is running with District 3 council candidates Cindy Guijosa and Zack Miller.",
+    "voter-history":[]
+  },
+
+  "Wojahn":{
+    "full-name": "Patrick Wojahn",
+    "election": "mayor",
+    "bio": "Wojahn currently serves as the city’s mayor, and previously served four terms as a District 1 councilman.
+
+“I think we’ve made a lot of progress in the last couple years in terms of building a strong partnership with the university and really accomplishing things that benefit College Park residents as a result of that partnership,” Wojahn said. “It would be a real shame if we turned our ship around now and stopped working toward a better, higher-quality college town.”
+
+His campaign centers on issues such as transportation, sustainability, development in downtown College Park and addressing diversity challenges. He said his proudest accomplishments over the past two years include the progress with the mBike program, in addition to his work supporting local businesses and spearheading the establishment of the One College Park Coalition in 2016, which he wants to continue working with to hold discussions about diversity in the city.
+
+“There’s a lot of promise here, and we’re only now starting to really realize our potential as a true college town, so I want to keep that momentum going,” Wojahn said.",
+    "voter-history": [
+      {
+        "motion": "Establish child-care center on Calvert road, allow city to enter partnership with UMD",
+        "year": "2017",
+        "vote-text": "In favor, broke tie",
+        "vote-type": "yes"
+      },
+      {
+        "motion": "Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations",
+        "year": "2016",
+        "vote-text": "In favor, broke tie",
+        "vote-type": "yes"
+      },
+      {
+        "motion": "Award a contract for the construction of a Duvall Field concession building and plaza",
+        "year": "2016",
+        "vote-text": "In favor, broke tie",
+        "vote-type": "yes"
+      },
+      {
+        "motion": "Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events",
+        "year": "2015",
+        "vote-text": "Opposed",
+        "vote-type": "no"
+      },
+      {
+        "motion": "Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court",
+        "year": "2015",
+        "vote-text": "In favor",
+        "vote-type": "yes"
+      }
+    ]
+  },
+
+  "Malsawma":{
+    "full-name": "Zari Malsawma",
+    "election": "mayor",
+    "bio": "Malsawma, a District 4 resident who moved to the city in November 1973, was a co-coordinator for the College Park Woods Neighborhood Watch and currently serves as a block captain. She’s also been a member of the civic association since the mid-1990s, and is a lead for the College Park Woods North neighborhood network on Nextdoor, a private social network for neighbors and their community.
+
+“It’s something that God has led me out on,” Malsawma said about her decision to run. “It’s an adventure of faith. The vision he’s given me is to help make College Park a place where no evil can thrive, to see it become a city where God’s name is hallowed, his kingdom come and his will is done.”
+
+Malsawma would like to work on creating a stronger city identity, developing infrastructure and bridging racial and political divides. She is in favor of a new City Hall that would have more space for city departments and cultural programs, such as one to help residents throughout the citizenship process.
+
+“College Park is really diverse in terms of the different cultural backgrounds of the residents — we’re like a microcosm of the world here,” Malsawma said. “It’s so rich, and I think we have yet to find ways to draw strength from that diversity.”",
+    "voter-history": []
+  },
+
+  "Cook":{
+    "full-name": "Mary Cook",
+    "election": "mayor",
+    "bio": "Cook, a current District 4 council member who has served nearly five years on council, is running for mayor to be a “strong voice for the residents.”
+
+“I would like us to go back to basics. I would like to refocus our attentions on the needs of the residents because although College Park takes care of its residents, to an extent, I think there’s so much need by some of our individuals in the community and we’re missing it,” she said, highlighting the needs of children, families, senior citizens and immigrant populations.
+
+Cook has served on the Advisory Planning Commission, Veterans Memorial Improvement Committee, North College Park Civic Association, Committee for a Better Environment, Cherry Hill Neighborhood Watch, North Autoville Cherry Hill Organization and the Committee for Transit Alternative. She has held leadership positions in all but the last organization, she said.
+
+“I’m aware of many aspects of the issues that are important to the residents and important to the city,” Cook said.",
+    "voter-history": [
+      {
+        "motion": "Extend municipal voting rights to city residents who are non-U.S. citizens",
+        "year": "2017",
+        "vote-text": "Opposed",
+        "vote-type": "no"
+      },
+      {
+        "motion": "Establish child-care center on Calvert road, allow city to enter partnership with UMD",
+        "year": "2017",
+        "vote-text": "Opposed",
+        "vote-type": "no"
+      },
+      {
+        "motion": "Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program",
+        "year": "2017",
+        "vote-text": "In favor",
+        "vote-type": "yes"
+      },
+      {
+        "motion": "Display the Pride flag at City Hall annually for one week during Pride Week",
+        "year": "2017",
+        "vote-text": "Opposed",
+        "vote-type": "no"
+      },
+      {
+        "motion": "Adopt a resolution condemning the Trump administration’s ban on refugees immigrants from seven majority-Muslim countries",
+        "year": "2017",
+        "vote-text": "In favor",
+        "vote-type": "yes"
+      },
+      {
+        "motion": "Draft letter in support of Maryland Law Enforcement and Governmental Trust Act, which limits ability of local law enforcement to turn people over for immigration purposes",
+        "year": "2017",
+        "vote-text": "Absent",
+        "vote-type": "neutral"
+      },
+      {
+        "motion": "Adopt a resolution welcoming refugees into the city",
+        "year": "2016",
+        "vote-text": "In favor",
+        "vote-type": "yes"
+      },
+      {
+        "motion": "Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations",
+        "year": "2016",
+        "vote-text": "Opposed",
+        "vote-type": "no"
+      },
+      {
+        "motion": "Award contract for the construction of a Duvall Field concession building and plaza",
+        "year": "2016",
+        "vote-text": "Opposed",
+        "vote-type": "no"
+      },
+      {
+        "motion": "Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide American Disabilities Act accessibility",
+        "year": "2016",
+        "vote-text": "Opposed",
+        "vote-type": "no"
+      },
+      {
+        "motion": "Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing",
+        "year": "2016",
+        "vote-text": "In favor",
+        "vote-type": "yes"
+      }
+    ]
+  }
+
+}
