@@ -15,8 +15,24 @@ LodashFactory.$inject = ['$window'];
 // Register factory
 cityApp.factory('_', LodashFactory);
 
-cityApp.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
-
-
-
+cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _) {
+    function loadData() {
+        return $http.get("includes/data/data.json");
+    }
+    dataRequest = loadData().then(function(data){
+        return data.data;
+    });
+    $scope.getCandidateInfo = function(candidate) {
+        dataRequest.then(function(data){
+           $scope.voteData = data[candidate]["voter-history"]
+           $scope.bio = data[candidate]["bio"]
+           $scope.election = data[candidate]["election"]
+           $scope.name = data[candidate]["full-name"]
+        });
+    }
+    $scope.getCandidateInfo("Chen")
+    $scope.voteData = []
+    $scope.bio = ""
+    $scope.election = ""
+    $scope.name = ""
 }]);

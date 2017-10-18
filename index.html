@@ -1,8 +1,9 @@
-<html>
+<html ng-app="cityApp">
     <head>
-        <!-- Angular -->
+        <!-- Angular and plugins for it -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+        <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.js"></script>
 
         <!-- jQuery -->
         <script
@@ -18,7 +19,7 @@
         <meta charset="utf-8"/>
         <title>City Election Guide | Diamondback</title>
     </head>
-    <body ng-app="cityApp">
+    <body ng-controller="main-ctlr">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12" id="landing-page">
@@ -83,14 +84,19 @@
                 <div class="col-lg-4">
                 </div>
                 <div class="col-lg-4">
+
                 </div>
                 <div class="col-lg-4">
+
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4">
+
+
                 </div>
                 <div class="col-lg-4">
+
                 </div>
             </div>
         </div>
@@ -107,23 +113,20 @@
 
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 
-                    <h4 class="modal-title">Confirmation</h4>
+                    <h2 class="modal-title">{{name}}</h2>
 
                 </div>
 
                 <div class="modal-body">
-
-                    <p>Do you want to save changes you made to document before closing?</p>
-
-                    <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
-
+                    <h4> Election: {{election}}</h4>
+                    <p>{{bio}}</p>
                 </div>
 
                 <div class="modal-footer">
 
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
-                    <button type="button" class="btn btn-primary">Save changes</button>
+
 
                 </div>
 
