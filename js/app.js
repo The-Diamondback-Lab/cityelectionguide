@@ -30,36 +30,28 @@ cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _)
     profilesRequest = loadProfileData();
     votesRequest = loadVoteData();
 
-    /*$scope.getCandidateInfo = function(candidate) {
-        dataRequest.then(function(data){
-           $scope.voteData = data[candidate]["voter-history"]
-           $scope.bio = data[candidate]["bio"]
-           $scope.election = data[candidate]["election"]
-           $scope.name = data[candidate]["full-name"]
-        });
-    }
-    $scope.getCandidateInfo("Chen")
     $scope.voteData = []
     $scope.bio = ""
     $scope.election = ""
-    $scope.name = ""*/
+    $scope.name = ""
+
     $scope.getCandidateInfo = function(candidate) {
         getVotes(candidate)
         getProfile(candidate)
     }
     function getVotes(candidate) {
         votesRequest.then(function(data){
-            console.log(_.filter(data,{"Candidate":candidate}))
+            $scope.votes = _.filter(data,{"Candidate":candidate})
         });
-
-
-
     }
+
     function getProfile(candidate) {
         profilesRequest.then(function(data){
-            console.log(data[candidate])
+            person = data[candidate]
+            $scope.name = person["Name"]
+            $scope.election = person["Election"]
+            $scope.bio = person["Profile Text"]
         })
     }
-    //getProfile("Denise Mitchell")
-    //getVotes("Denise Mitchell")
+
 }]);
