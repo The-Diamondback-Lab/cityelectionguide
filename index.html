@@ -149,15 +149,31 @@
             <div class="modal-body">
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
                 <ul class="nav nav-tabs">
-                <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-                <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                <li class="active"><a href="#tab1" data-toggle="tab">Profile</a></li>
+                <li><a href="#tab2" data-toggle="tab">Votes</a></li>
                 </ul>
                 <div class="tab-content">
                 <div class="tab-pane active" id="tab1">
-                    Data 1
+                    <h2>{{name}}</h2>
+                    <h3>Election:{{election}}</h3>
+                    <p>{{bio}}</p>
                 </div>
                 <div class="tab-pane" id="tab2">
-                	<p>Data 2.</p>
+                	<div ng-repeat="vote in votes" ng-hide="votes.length == 0">
+                        <div id="row">
+                            <div class="col-md-9">
+                                <p>{{vote['Motion to: ']}}</p>
+                            </div>
+                            <div class="col-md-3">
+                                <p>{{vote.Vote}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" ng-show="votes.length == 0">
+                        <p>
+                            Unfortunately, {{name}} does not have any history of votes.
+                        </p>
+                    </div>
                 </div>
                 </div>
                 </div>
