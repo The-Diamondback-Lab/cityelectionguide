@@ -35,12 +35,21 @@ cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _)
     $scope.bio = ""
     $scope.election = ""
     $scope.name = ""*/
+    $scope.getCandidateInfo = function(candidate) {
+        getVotes(candidate)
+        getProfile(candidate)
+    }
     function getVotes(candidate) {
         return $http.get("includes/data/votes.json").then(function(data){
-           
+
            console.log(_.filter(data.data,{"Candidate":candidate}))
         });
     }
-    //getProfile("chen")
-    getVotes("Denise Mitchell")
+    function getProfile(candidate) {
+        return $http.get("includes/data/profiles.json").then(function(data){
+            console.log(data.data[0][candidate])
+        })
+    }
+    //getProfile("Denise Mitchell")
+    //getVotes("Denise Mitchell")
 }]);
