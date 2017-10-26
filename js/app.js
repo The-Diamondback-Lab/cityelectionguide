@@ -16,12 +16,20 @@ LodashFactory.$inject = ['$window'];
 cityApp.factory('_', LodashFactory);
 
 cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _) {
-    /*function loadData() {
-        return $http.get("includes/data/data.json");
+    function loadVoteData() {
+        return $http.get("includes/data/votes.json").then(function(data){
+            return data.data;
+        });
     }
-    dataRequest = loadData().then(function(data){
-        return data.data;
-    });*/
+    function loadProfileData() {
+        return $http.get("includes/data/profiles.json").then(function(data){
+            return data.data[0];
+        });
+    }
+
+    profilesRequest = loadProfileData();
+    votesRequest = loadVoteData();
+
     /*$scope.getCandidateInfo = function(candidate) {
         dataRequest.then(function(data){
            $scope.voteData = data[candidate]["voter-history"]
@@ -40,14 +48,16 @@ cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _)
         getProfile(candidate)
     }
     function getVotes(candidate) {
-        return $http.get("includes/data/votes.json").then(function(data){
-
-           console.log(_.filter(data.data,{"Candidate":candidate}))
+        votesRequest.then(function(data){
+            console.log(_.filter(data,{"Candidate":candidate}))
         });
+
+
+
     }
     function getProfile(candidate) {
-        return $http.get("includes/data/profiles.json").then(function(data){
-            console.log(data.data[0][candidate])
+        profilesRequest.then(function(data){
+            console.log(data[candidate])
         })
     }
     //getProfile("Denise Mitchell")
