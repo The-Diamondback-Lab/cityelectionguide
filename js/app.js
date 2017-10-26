@@ -16,40 +16,42 @@ LodashFactory.$inject = ['$window'];
 cityApp.factory('_', LodashFactory);
 
 cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _) {
-    /*function loadData() {
-        return $http.get("includes/data/data.json");
-    }
-    dataRequest = loadData().then(function(data){
-        return data.data;
-    });*/
-    /*$scope.getCandidateInfo = function(candidate) {
-        dataRequest.then(function(data){
-           $scope.voteData = data[candidate]["voter-history"]
-           $scope.bio = data[candidate]["bio"]
-           $scope.election = data[candidate]["election"]
-           $scope.name = data[candidate]["full-name"]
+    function loadVoteData() {
+        return $http.get("includes/data/votes.json").then(function(data){
+            return data.data;
         });
     }
-    $scope.getCandidateInfo("Chen")
+    function loadProfileData() {
+        return $http.get("includes/data/profiles.json").then(function(data){
+            return data.data[0];
+        });
+    }
+
+    profilesRequest = loadProfileData();
+    votesRequest = loadVoteData();
+
     $scope.voteData = []
     $scope.bio = ""
     $scope.election = ""
-    $scope.name = ""*/
+    $scope.name = ""
+
     $scope.getCandidateInfo = function(candidate) {
         getVotes(candidate)
         getProfile(candidate)
     }
     function getVotes(candidate) {
-        return $http.get("includes/data/votes.json").then(function(data){
-
-           console.log(_.filter(data.data,{"Candidate":candidate}))
+        votesRequest.then(function(data){
+            $scope.votes = _.filter(data,{"Candidate":candidate})
         });
     }
+
     function getProfile(candidate) {
-        return $http.get("includes/data/profiles.json").then(function(data){
-            console.log(data.data[0][candidate])
+        profilesRequest.then(function(data){
+            person = data[candidate]
+            $scope.name = person["Name"]
+            $scope.election = person["Election"]
+            $scope.bio = person["Profile Text"]
         })
     }
-    //getProfile("Denise Mitchell")
-    //getVotes("Denise Mitchell")
+
 }]);
