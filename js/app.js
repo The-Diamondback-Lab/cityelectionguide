@@ -16,13 +16,13 @@ LodashFactory.$inject = ['$window'];
 cityApp.factory('_', LodashFactory);
 
 cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _) {
-    function loadData() {
+    /*function loadData() {
         return $http.get("includes/data/data.json");
     }
     dataRequest = loadData().then(function(data){
         return data.data;
-    });
-    $scope.getCandidateInfo = function(candidate) {
+    });*/
+    /*$scope.getCandidateInfo = function(candidate) {
         dataRequest.then(function(data){
            $scope.voteData = data[candidate]["voter-history"]
            $scope.bio = data[candidate]["bio"]
@@ -34,5 +34,13 @@ cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _)
     $scope.voteData = []
     $scope.bio = ""
     $scope.election = ""
-    $scope.name = ""
+    $scope.name = ""*/
+    function getVotes(candidate) {
+        return $http.get("includes/data/votes.json").then(function(data){
+           
+           console.log(_.filter(data.data,{"Candidate":candidate}))
+        });
+    }
+    //getProfile("chen")
+    getVotes("Denise Mitchell")
 }]);

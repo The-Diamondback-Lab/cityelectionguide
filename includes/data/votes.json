@@ -1,0 +1,695 @@
+[
+  {
+    "Candidate": "Patrick Wojahn",
+    "Motion to: ": "Establish child-care center on Calvert road, allow city to enter partnership with UMD",
+    "Year": 2017,
+    "Vote": "In favor, broke tie",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Patrick Wojahn",
+    "Motion to: ": "Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations",
+    "Year": 2016,
+    "Vote": "In favor, broke tie",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Patrick Wojahn",
+    "Motion to: ": "Award a contract for the construction of a Duvall Field concession building and plaza",
+    "Year": 2016,
+    "Vote": "In favor, broke tie",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Patrick Wojahn",
+    "Motion to: ": "Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events",
+    "Year": 2015,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Patrick Wojahn",
+    "Motion to: ": "Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Extend municipal voting rights to city residents who are non-U.S. citizens",
+    "Year": 2017,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Establish child-care center on Calvert road, allow city to enter partnership with UMD",
+    "Year": 2017,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Display the Pride flag at City Hall annually for one week during Pride Week",
+    "Year": 2017,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Adopt a resolution condemning the Trump administration’s ban on refugees immigrants from seven majority-Muslim countries",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Draft letter in support of Maryland Law Enforcement and Governmental Trust Act, which limits ability of local law enforcement to turn people over for immigration purposes",
+    "Year": 2017,
+    "Vote": "Absent",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Adopt a resolution welcoming refugees into the city",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations",
+    "Year": 2016,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Award contract for the construction of a Duvall Field concession building and plaza",
+    "Year": 2016,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide American Disabilities Act accessibility",
+    "Year": 2016,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Mary Cook",
+    "Motion to: ": "Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Extend municipal voting rights to city residents who are non-U.S. citizens",
+    "Year": 2017,
+    "Vote": "Abstained",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Establish child-care center on Calvert road, allow city to enter partnership with UMD",
+    "Year": 2017,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Display the Pride flag at City Hall annually for one week during Pride Week",
+    "Year": 2017,
+    "Vote": "Abstained",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Adopt a resolution welcoming refugees into the city",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations",
+    "Year": 2016,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Award contract for the construction of a Duvall Field concession building and plaza",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide Americans with Disabilities Act accessibility",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing anywhere in the county",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events",
+    "Year": 2015,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Fazlul Kabir",
+    "Motion to: ": "Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court",
+    "Year": 2015,
+    "Vote": "Abstained",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Extend municipal voting rights to city residents who are non-U.S. citizens",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Establish child-care center on Calvert road, allow city to enter partnership with UMD",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Display the Pride flag at City Hall annually for one week during Pride Week",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Adopt a resolution welcoming refugees into the city",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Award contract for the construction of a Duvall Field concession building and plaza",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide ADA accessibility",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events",
+    "Year": 2015,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "P.J. Brennan",
+    "Motion to: ": "Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Extend municipal voting rights to city residents who are non-U.S. citizens",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Establish child-care center on Calvert road, allow city to enter partnership with UMD",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Display the Pride flag at City Hall annually for one week during Pride Week",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Adopt a resolution welcoming refugees into the city",
+    "Year": 2016,
+    "Vote": "Absent",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Award contract for the construction of a Duvall Field concession building and plaza",
+    "Year": 2016,
+    "Vote": "Absent",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide ADA accessibility",
+    "Year": 2016,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Monroe Dennis",
+    "Motion to: ": "Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Extend municipal voting rights to city residents who are non-U.S. citizens",
+    "Year": 2017,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Establish child-care center on Calvert road, allow city to enter partnership with UMD",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Display the Pride flag at City Hall annually for one week during Pride Week",
+    "Year": 2017,
+    "Vote": "Absent",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Adopt a resolution welcoming refugees into the city",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Award contract for the construction of a Duvall Field concession building and plaza",
+    "Year": 2016,
+    "Vote": "Absent",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide ADA accessibility",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Robert Day",
+    "Motion to: ": "Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Alan Hew",
+    "Motion to: ": "Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Alan Hew",
+    "Motion to: ": "Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Alan Hew",
+    "Motion to: ": "Amend the city’s charter to include a policy against discrimination with respect to employment, housing and public accommodation",
+    "Year": 2014,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Alan Hew",
+    "Motion to: ": "Approve a charter resolution to add certain non-discrimination provisions concerning city employment",
+    "Year": 2014,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Alan Hew",
+    "Motion to: ": "Rebuild the new City Hall at its current location rather than starting construction on a new site",
+    "Year": 2014,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Alan Hew",
+    "Motion to: ": "Lower the minimum required age for office as mayor and as a council member to 18 years old",
+    "Year": 2014,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Extend municipal voting rights to city residents who are non-U.S. citizens",
+    "Year": 2017,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Establish child-care center on Calvert road, allow city to enter partnership with UMD",
+    "Year": 2017,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Display the Pride flag at City Hall annually for one week during Pride Week",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act",
+    "Year": 2017,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Adopt a resolution welcoming refugees into the city",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations",
+    "Year": 2016,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Award contract for the construction of a Duvall Field concession building and plaza",
+    "Year": 2016,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide ADA accessibility",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Dustyn Kujawa",
+    "Motion to: ": "Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing",
+    "Year": 2016,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court",
+    "Year": 2015,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Amend the city’s charter to include a general policy against discrimination with respect to employment, housing and public accommodation",
+    "Year": 2014,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Approve a charter resolution to add certain non-discrimination provisions concerning city employment",
+    "Year": 2014,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Rebuild the new City Hall at its current location rather than starting construction on a new site",
+    "Year": 2014,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Lower the minimum required age for office as mayor and as a council member to 18 years old",
+    "Year": 2014,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Send a letter in support of House of Delegates bill HB 337 and a crossfiled state Senate bill, SB 514, which propose to ban the practice of hydraulic fracturing in Maryland",
+    "Year": 2013,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Increase the mayor’s annual salary to $10,500 and each council member’s annual salary to $7,000, effective Jan. 1, 2014. This represented a 40 percent increase",
+    "Year": 2013,
+    "Vote": "Opposed",
+    "Sentiment": "Negative"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Extend the effective date of the Rent Stabilization Law through Sept. 1, 2013, to clarify the criteria considered in determining Individual Adjustment of Rent Ceilings and make other changes for clarification and efficiency of enforcement",
+    "Year": 2012,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Approve in principle an application by the College Park City University Partnership to the Prince George’s County Board of Education for the College Park Academy Public Charter School",
+    "Year": 2012,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Send a letter to then-state Sen. Brian Frosh and the Judiciary Proceedings Committee in support of the Religious Freedom and Civil Marriage Protection Act, which would legalize same-sex marriage",
+    "Year": 2011,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "uthorize use of the City Hall parking lot for a College Park Farmer’s Market on Sundays",
+    "Year": 2011,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Approve a letter of intent to Prince George’s County Public Schools for the College Park Academy Public Charter School",
+    "Year": 2011,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  },
+  {
+    "Candidate": "Denise Mitchell",
+    "Motion to: ": "Authorize the City Manager to explore the installation and deployment of speed cameras in school zones",
+    "Year": 2010,
+    "Vote": "In favor",
+    "Sentiment": "Positive"
+  }
+]
