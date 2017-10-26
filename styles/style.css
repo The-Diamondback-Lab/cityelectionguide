@@ -1,0 +1,18 @@
+body{
+
+}
+
+@font-face {
+    font-family: trade-gothic-condensed;
+    src: url("../fonts/trade-gothic-bold-condensed-20.eot");
+}
+
+h2{
+  font-family: trade-gothic-condensed;
+}
+
+#landing-page{
+  width:100%;
+  height:100%;
+  background-color: #000000
+}
