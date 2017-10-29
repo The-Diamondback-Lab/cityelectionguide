@@ -15,6 +15,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+        <!-- Lazy Loading Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.0/lazysizes.min.js"></script>
+
         <script src="js/app.js"></script>
 
         <link rel="stylesheet" href="styles/css/style.css">
@@ -36,19 +39,19 @@
             <h2>Mayoral Candidates</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/chen.jpg" ng-click="getCandidateInfo('Tom Chen')"/>
+                    <img class="img-responsive lazyload" src="img/chen.jpg" ng-click="getCandidateInfo('Tom Chen')"/>
                     <h3>Tom Chen</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/wojahn.jpg" ng-click="getCandidateInfo('Patrick Wojahn')"/>
+                    <img class="img-responsive lazyload" src="img/wojahn.jpg" ng-click="getCandidateInfo('Patrick Wojahn')"/>
                     <h3>Patrick Wojahn</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/malsawma.jpg" ng-click="getCandidateInfo('Zari Malsawma')"/>
+                    <img class="img-responsive lazyload" src="img/malsawma.jpg" ng-click="getCandidateInfo('Zari Malsawma')"/>
                     <h3>Zari Malsawma</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/cook.jpg" ng-click="getCandidateInfo('Mary Cook')"/>
+                    <img class="img-responsive lazyload" src="img/cook.jpg" ng-click="getCandidateInfo('Mary Cook')"/>
                     <h3>Mary Cook</h3>
                 </div>
             </div>
@@ -57,19 +60,19 @@
             <h2>District 1</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive" src="img/debosky.jpg" ng-click="getCandidateInfo('Beth DeBosky')"/>
+                    <img class="img-responsive lazyload" src="img/debosky.jpg" ng-click="getCandidateInfo('Beth DeBosky')"/>
                     <h3>Beth DeBosky</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive" src="img/gill.jpg" ng-click="getCandidateInfo('Christopher Gill')"/>
+                    <img class="img-responsive lazyload" src="img/gill.jpg" ng-click="getCandidateInfo('Christopher Gill')"/>
                     <h3>Christopher Gill</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive" src="img/kabir.jpg" ng-click="getCandidateInfo('Fazlul Kabir')"/>
+                    <img class="img-responsive lazyload" src="img/kabir.jpg" ng-click="getCandidateInfo('Fazlul Kabir')"/>
                     <h3>Fazlul Kabir</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive" src="img/kennedy.jpg" ng-click="getCandidateInfo('Kate Kennedy')"/>
+                    <img class="img-responsive lazyload" src="img/kennedy.jpg" ng-click="getCandidateInfo('Kate Kennedy')"/>
                     <h3>Kate Kennedy</h3>
                 </div>
             </div>
@@ -79,26 +82,26 @@
             <h2>District 2</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive" src="img/blasberg.jpg" ng-click="getCandidateInfo('Daniel Blasberg')"/>
+                    <img class="img-responsive lazyload" src="img/blasberg.jpg" ng-click="getCandidateInfo('Daniel Blasberg')"/>
                     <h3>Daniel Blasberg</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive" src="img/brennan.jpg" ng-click="getCandidateInfo('P.J. Brennan')"/>
+                    <img class="img-responsive lazyload" src="img/brennan.jpg" ng-click="getCandidateInfo('P.J. Brennan')"/>
                     <h3>P.J. Brennan</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/dennis.jpg" ng-click="getCandidateInfo('Monroe Dennis')"/>
+                    <img class="img-responsive lazyload" src="img/dennis.jpg" ng-click="getCandidateInfo('Monroe Dennis')"/>
                     <h3>Monroe Dennis</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/douglas.jpg" ng-click="getCandidateInfo('Richard Douglas')"/>
+                    <img class="img-responsive lazyload" src="img/douglas.jpg" ng-click="getCandidateInfo('Richard Douglas')"/>
                     <h3>Richard Douglas</h3>
                 </div>
             </div>
             <br/>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/tobin.jpg" ng-click="getCandidateInfo('Alex Tobin')"/>
+                    <img class="img-responsive lazyload" src="img/tobin.jpg" ng-click="getCandidateInfo('Alex Tobin')"/>
                     <h3>Alex Tobin</h3>
                 </div>
             </div>
@@ -108,19 +111,19 @@
             <h2>District 3</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/day.jpg" ng-click="getCandidateInfo('Robert Day')"/>
+                    <img class="img-responsive lazyload" src="img/day.jpg" ng-click="getCandidateInfo('Robert Day')"/>
                     <h3>Robert Day</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/guijosa.jpg" ng-click="getCandidateInfo('Cindy Guijosa')"/>
+                    <img class="img-responsive lazyload" src="img/guijosa.jpg" ng-click="getCandidateInfo('Cindy Guijosa')"/>
                     <h3>Cindy Guijosa</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/miller.jpg" ng-click="getCandidateInfo('Zack Miller')"/>
+                    <img class="img-responsive lazyload" src="img/miller.jpg" ng-click="getCandidateInfo('Zack Miller')"/>
                     <h3>Zack Miller</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/rigg.jpg" ng-click="getCandidateInfo('John Rigg')"/>
+                    <img class="img-responsive lazyload" src="img/rigg.jpg" ng-click="getCandidateInfo('John Rigg')"/>
                     <h3>John Rigg</h3>
                 </div>
             </div>
@@ -130,19 +133,19 @@
             <h2>District 4</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/gregory.jpg" ng-click="getCandidateInfo('Oscar Gregory')"/>
+                    <img class="img-responsive lazyload" src="img/gregory.jpg" ng-click="getCandidateInfo('Oscar Gregory')"/>
                     <h3>Oscar Gregory</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/hew.jpg" ng-click="getCandidateInfo('Alan Hew')"/>
+                    <img class="img-responsive lazyload" src="img/hew.jpg" ng-click="getCandidateInfo('Alan Hew')"/>
                     <h3>Alan Hew</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/kujawa.jpg" ng-click="getCandidateInfo('Dustyn Kujawa')"/>
+                    <img class="img-responsive lazyload" src="img/kujawa.jpg" ng-click="getCandidateInfo('Dustyn Kujawa')"/>
                     <h3>Dustyn Kujawa</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive" src="img/mitchell.jpg" ng-click="getCandidateInfo('Denise Mitchell')"/>
+                    <img class="img-responsive lazyload" src="img/mitchell.jpg" ng-click="getCandidateInfo('Denise Mitchell')"/>
                     <h3>Denise Mitchell</h3>
                 </div>
             </div>
@@ -158,15 +161,31 @@
             <div class="modal-body">
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
                 <ul class="nav nav-tabs">
-                <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
-                <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                <li class="active"><a href="#tab1" data-toggle="tab">Profile</a></li>
+                <li><a href="#tab2" data-toggle="tab">Votes</a></li>
                 </ul>
                 <div class="tab-content">
                 <div class="tab-pane active" id="tab1">
-                    Data 1
+                    <h2>{{name}}</h2>
+                    <h3>Election:{{election}}</h3>
+                    <p>{{bio}}</p>
                 </div>
                 <div class="tab-pane" id="tab2">
-                	<p>Data 2.</p>
+                	<div ng-repeat="vote in votes" ng-hide="votes.length == 0">
+                        <div id="row">
+                            <div class="col-md-9">
+                                <p>{{vote['Motion to: ']}}</p>
+                            </div>
+                            <div class="col-md-3">
+                                <p>{{vote.Vote}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" ng-show="votes.length == 0">
+                        <p>
+                            Unfortunately, {{name}} does not have any history of votes.
+                        </p>
+                    </div>
                 </div>
                 </div>
                 </div>
