@@ -17,27 +17,22 @@
 
         <script src="js/app.js"></script>
 
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/css/style.css">
 
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
-        <style>
-            .img-responsive{
-                margin:auto;
-                width: 75%;
-            }
-            .profile-pic-div{
-                text-align: center;
-            }
-        </style>
         <title>City Election Guide | Diamondback</title>
     </head>
     <body ng-controller="main-ctlr">
-        <div class="container">
+        <div class="container" id = "landing-page">
             <div class="row">
-                <div class="col-lg-12" id="landing-page">
-
+                <div class="col-lg-12 centered">
+                  <h1>College Park Election Guide</h1>
                 </div>
             </div>
+        </div>
+        <div class = "container">
+          <div class = "district mayor">
             <h2>Mayoral Candidates</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
@@ -57,6 +52,8 @@
                     <h3>Mary Cook</h3>
                 </div>
             </div>
+          </div>
+          <div class = "district">
             <h2>District 1</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div" >
@@ -76,7 +73,9 @@
                     <h3>Kate Kennedy</h3>
                 </div>
             </div>
+          </div>
 
+          <div class = "district">
             <h2>District 2</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div" >
@@ -103,6 +102,9 @@
                     <h3>Alex Tobin</h3>
                 </div>
             </div>
+          </div>
+
+          <div class = "district">
             <h2>District 3</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
@@ -122,7 +124,9 @@
                     <h3>John Rigg</h3>
                 </div>
             </div>
+          </div>
 
+          <div class = "district">
             <h2>District 4</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
@@ -142,11 +146,11 @@
                     <h3>Denise Mitchell</h3>
                 </div>
             </div>
-
+          </div>
         </div>
         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Test Modal</button>
 
-        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="windowTitleLabel">
+        <div id="details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="windowTitleLabel">
           <div class="modal-dialog">
             <div class="modal-header">
                 <h3>Task List</h3>
