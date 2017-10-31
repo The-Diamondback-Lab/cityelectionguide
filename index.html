@@ -22,15 +22,23 @@
 
         <link rel="stylesheet" href="styles/css/style.css">
 
+        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
         <title>City Election Guide | Diamondback</title>
     </head>
     <body ng-controller="main-ctlr">
         <div class="container" id = "landing-page">
             <div class="row">
-                <div class="col-lg-12 centered">
+                <div class="col-lg-12 intro-content">
                   <h1>College Park Election Guide</h1>
+                  <br />
+                  <h3 class = "intro-text">This year’s College Park election marks the second time in more than 20 years the four district races and the mayoral race are all contested. Mayor Patrick Wojahn is running for re-election, and with three other candidates vying for his seat, the mayoral election is <b>the most contested in city history.</b>
+
+<br /><br />Seventeen candidates are running for eight council seats. In each district, at least one incumbent is campaigning to hold on to one of two available seats. Below, we've profiled all 21 candidates and outlined voter history for those with council experience
+
+<br /><br />The elections will take place on Nov. 7 between 7 a.m. and 8 p.m. Residents of Districts 1 and 4 can vote at Davis Hall (9217 51st Ave), and residents of Districts 2 and 3 can vote at City Hall (4500 Knox Road).</h3>
                 </div>
             </div>
         </div>
@@ -39,19 +47,19 @@
             <h2>Mayoral Candidates</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/chen.jpg" ng-click="getCandidateInfo('Tom Chen')"/>
+                    <img class="img-responsive lazyload" src="img/chen.jpg" ng-click="getCandidateInfo('Tom Chen')" onclick = "$('#details').modal('show');"/>
                     <h3>Tom Chen</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/wojahn.jpg" ng-click="getCandidateInfo('Patrick Wojahn')"/>
+                    <img class="img-responsive lazyload" src="img/wojahn.jpg" ng-click="getCandidateInfo('Patrick Wojahn')" onclick = "$('#details').modal('show');"/>
                     <h3>Patrick Wojahn</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/malsawma.jpg" ng-click="getCandidateInfo('Zari Malsawma')"/>
+                    <img class="img-responsive lazyload" src="img/malsawma.jpg" ng-click="getCandidateInfo('Zari Malsawma')" onclick = "$('#details').modal('show');"/>
                     <h3>Zari Malsawma</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/cook.jpg" ng-click="getCandidateInfo('Mary Cook')"/>
+                    <img class="img-responsive lazyload" src="img/cook.jpg" ng-click="getCandidateInfo('Mary Cook')" onclick = "$('#details').modal('show');"/>
                     <h3>Mary Cook</h3>
                 </div>
             </div>
@@ -60,19 +68,19 @@
             <h2>District 1</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive lazyload" src="img/debosky.jpg" ng-click="getCandidateInfo('Beth DeBosky')"/>
+                    <img class="img-responsive lazyload" src="img/debosky.jpg" ng-click="getCandidateInfo('Beth DeBosky')" onclick = "$('#details').modal('show');"/>
                     <h3>Beth DeBosky</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive lazyload" src="img/gill.jpg" ng-click="getCandidateInfo('Christopher Gill')"/>
+                    <img class="img-responsive lazyload" src="img/gill.jpg" ng-click="getCandidateInfo('Christopher Gill')" onclick = "$('#details').modal('show');"/>
                     <h3>Christopher Gill</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive lazyload" src="img/kabir.jpg" ng-click="getCandidateInfo('Fazlul Kabir')"/>
+                    <img class="img-responsive lazyload" src="img/kabir.jpg" ng-click="getCandidateInfo('Fazlul Kabir')" onclick = "$('#details').modal('show');"/>
                     <h3>Fazlul Kabir</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive lazyload" src="img/kennedy.jpg" ng-click="getCandidateInfo('Kate Kennedy')"/>
+                    <img class="img-responsive lazyload" src="img/kennedy.jpg" ng-click="getCandidateInfo('Kate Kennedy')" onclick = "$('#details').modal('show');"/>
                     <h3>Kate Kennedy</h3>
                 </div>
             </div>
@@ -82,26 +90,26 @@
             <h2>District 2</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive lazyload" src="img/blasberg.jpg" ng-click="getCandidateInfo('Daniel Blasberg')"/>
+                    <img class="img-responsive lazyload" src="img/blasberg.jpg" ng-click="getCandidateInfo('Daniel Blasberg')" onclick = "$('#details').modal('show');"/>
                     <h3>Daniel Blasberg</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div" >
-                    <img class="img-responsive lazyload" src="img/brennan.jpg" ng-click="getCandidateInfo('P.J. Brennan')"/>
+                    <img class="img-responsive lazyload" src="img/brennan.jpg" ng-click="getCandidateInfo('P.J. Brennan')" onclick = "$('#details').modal('show');"/>
                     <h3>P.J. Brennan</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/dennis.jpg" ng-click="getCandidateInfo('Monroe Dennis')"/>
+                    <img class="img-responsive lazyload" src="img/dennis.jpg" ng-click="getCandidateInfo('Monroe Dennis')" onclick = "$('#details').modal('show');"/>
                     <h3>Monroe Dennis</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/douglas.jpg" ng-click="getCandidateInfo('Richard Douglas')"/>
+                    <img class="img-responsive lazyload" src="img/douglas.jpg" ng-click="getCandidateInfo('Richard Douglas')" onclick = "$('#details').modal('show');"/>
                     <h3>Richard Douglas</h3>
                 </div>
             </div>
             <br/>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/tobin.jpg" ng-click="getCandidateInfo('Alex Tobin')"/>
+                    <img class="img-responsive lazyload" src="img/tobin.jpg" ng-click="getCandidateInfo('Alex Tobin')" onclick = "$('#details').modal('show');"/>
                     <h3>Alex Tobin</h3>
                 </div>
             </div>
@@ -111,19 +119,19 @@
             <h2>District 3</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/day.jpg" ng-click="getCandidateInfo('Robert Day')"/>
+                    <img class="img-responsive lazyload" src="img/day.jpg" ng-click="getCandidateInfo('Robert Day')" onclick = "$('#details').modal('show');"/>
                     <h3>Robert Day</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/guijosa.jpg" ng-click="getCandidateInfo('Cindy Guijosa')"/>
+                    <img class="img-responsive lazyload" src="img/guijosa.jpg" ng-click="getCandidateInfo('Cindy Guijosa')" onclick = "$('#details').modal('show');"/>
                     <h3>Cindy Guijosa</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/miller.jpg" ng-click="getCandidateInfo('Zack Miller')"/>
+                    <img class="img-responsive lazyload" src="img/miller.jpg" ng-click="getCandidateInfo('Zack Miller')" onclick = "$('#details').modal('show');"/>
                     <h3>Zack Miller</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/rigg.jpg" ng-click="getCandidateInfo('John Rigg')"/>
+                    <img class="img-responsive lazyload" src="img/rigg.jpg" ng-click="getCandidateInfo('John Rigg')" onclick = "$('#details').modal('show');"/>
                     <h3>John Rigg</h3>
                 </div>
             </div>
@@ -133,69 +141,88 @@
             <h2>District 4</h2>
             <div class="row">
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/gregory.jpg" ng-click="getCandidateInfo('Oscar Gregory')"/>
+                    <img class="img-responsive lazyload" src="img/gregory.jpg" ng-click="getCandidateInfo('Oscar Gregory')" onclick = "$('#details').modal('show');"/>
                     <h3>Oscar Gregory</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/hew.jpg" ng-click="getCandidateInfo('Alan Hew')"/>
+                    <img class="img-responsive lazyload" src="img/hew.jpg" ng-click="getCandidateInfo('Alan Hew')" onclick = "$('#details').modal('show');"/>
                     <h3>Alan Hew</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/kujawa.jpg" ng-click="getCandidateInfo('Dustyn Kujawa')"/>
+                    <img class="img-responsive lazyload" src="img/kujawa.jpg" ng-click="getCandidateInfo('Dustyn Kujawa')" onclick = "$('#details').modal('show');"/>
                     <h3>Dustyn Kujawa</h3>
                 </div>
                 <div class="col-md-3 profile-pic-div">
-                    <img class="img-responsive lazyload" src="img/mitchell.jpg" ng-click="getCandidateInfo('Denise Mitchell')"/>
+                    <img class="img-responsive lazyload" src="img/mitchell.jpg" ng-click="getCandidateInfo('Denise Mitchell')" onclick = "$('#details').modal('show');"/>
                     <h3>Denise Mitchell</h3>
                 </div>
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Test Modal</button>
 
         <div id="details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="windowTitleLabel">
           <div class="modal-dialog">
             <div class="modal-header">
-                <h3>Task List</h3>
-                </div>
+                <h3 style = "margin-top: 10px">{{name}} - {{election}}</h3>
+            </div>
             <div class="modal-body">
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
                 <ul class="nav nav-tabs">
                 <li class="active"><a href="#tab1" data-toggle="tab">Profile</a></li>
-                <li><a href="#tab2" data-toggle="tab">Votes</a></li>
+                <li><a href="#tab2" data-toggle="tab">Voter History</a></li>
                 </ul>
                 <div class="tab-content">
-                <div class="tab-pane active" id="tab1">
-                    <h2>{{name}}</h2>
-                    <h3>Election:{{election}}</h3>
-                    <p>{{bio}}</p>
-                </div>
-                <div class="tab-pane" id="tab2">
-                	<div ng-repeat="vote in votes" ng-hide="votes.length == 0">
-                        <div id="row">
-                            <div class="col-md-9">
-                                <p>{{vote['Motion to: ']}}</p>
-                            </div>
-                            <div class="col-md-3">
-                                <p>{{vote.Vote}}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12" ng-show="votes.length == 0">
-                        <p>
-                            Unfortunately, {{name}} does not have any history of votes.
-                        </p>
-                    </div>
-                </div>
+                  <div class="tab-pane active" id="tab1">
+                      <p>{{bio}}</p>
+                  </div>
+                  <div class="tab-pane" id="tab2">
+                      <table class="table" ng-hide="votes.length == 0">
+                        <thead>
+                          <tr>
+                            <th>Motion To</th>
+                            <th>Vote</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr ng-repeat="vote in votes" class = "{{vote.Sentiment}}">
+                            <td>{{vote['Motion to: ']}}</td>
+                            <td>{{vote.Vote}}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <div class="col-md-12" ng-show="votes.length == 0">
+                          <p>
+                              Unfortunately, {{name}} does not have any history of votes.
+                          </p>
+                      </div>
+                  </div>
                 </div>
                 </div>
            </div>
            <div class="modal-footer">
-                 <a href="#" class="btn btn-primary" onclick="CloseTaskList();">Close</a>
+                 <a href="#" class="btn btn-primary" onclick="$('#details').modal('hide');">Close</a>
            </div>
          </div>
         </div>
-
+        <!---footer-->
+        <footer>
+          <div class="container-fluid">
+            <div class = "row">
+              <div class = "col-md-6">
+                <h2>Credits</h2>
+                <p>Reporting: Leah Brennan</p>
+                <p>Design: Akshay Guthal, Siddy Tulli</p>
+                <br />
+                <a href="http://dbknews.com" target="_blank"><img src="img/dbk-widelogo.png" alt=""></a>
+              </div>
+              <div class = "col-md-6">
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div id="addthis" class="addthis_inline_follow_toolbox"></div>
+              </div>
+          </div>
+        </footer>
 
     </body>
+
 </html>
