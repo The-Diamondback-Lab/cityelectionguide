@@ -15,7 +15,7 @@ LodashFactory.$inject = ['$window'];
 // Register factory
 cityApp.factory('_', LodashFactory);
 
-cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _) {
+cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", function($scope,$http, _, $sce) {
     function loadVoteData() {
         return $http.get("includes/data/votes.json").then(function(data){
             return data.data;
@@ -50,7 +50,7 @@ cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _)
             person = data[candidate]
             $scope.name = person["Name"]
             $scope.election = person["Election"]
-            $scope.bio = person["Profile Text"]
+            $scope.bio = $sce.trustAsHtml(person["Profile Text"])
         })
     }
 
