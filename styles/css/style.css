@@ -29,7 +29,7 @@ body.modal-open {
   background-color: white;
   color: #36454F;
   border: none;
-  font-family: "trade-gothic-bold-condensed";
+  font-family: "solano-gothic-rg";
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
@@ -63,30 +63,40 @@ body.modal-open {
 }
 
 @font-face {
-  font-family: trade-gothic-bold-condensed;
-  src: url("../fonts/trade-gothic-bold-condensed-20.ttf");
+  font-family: solano-gothic-bd;
+  src: url("../fonts/SolanoGothicMVB-BdCap.otf");
 }
 
-@@font-face {
-  font-family: trade-gothic-condensed;
-  src: url("../fonts/trade-gothic-condensed-18.ttf")
+@font-face {
+  font-family: solano-gothic-sb;
+  src: url("../fonts/SolanoGothicMVB-SbCap.otf")
+}
+
+@font-face {
+  font-family: solano-gothic-md;
+  src: url("../fonts/SolanoGothicMVB-MdCap.otf")
+}
+
+@font-face {
+  font-family: solano-gothic-rg;
+  src: url("../fonts/SolanoGothicMVB-RgCap.otf")
 }
 
 h1{
-  font-family: "trade-gothic-bold-condensed";
+  font-family: "solano-gothic-bd";
   font-size:70pt;
   color: white;
 
 }
 
 h2{
-  font-family: "trade-gothic-bold-condensed";
+  font-family: "solano-gothic-bd";
   font-size:40pt;
   color: #36454F;
 }
 
 h3{
-  font-family: "Oswald", sans-serif;
+  font-family: "solano-gothic-sb";
   color: white;
 }
 
@@ -137,10 +147,10 @@ h3{
   color: #e51937;
 }
 
-.profile-pic-div:hover img{
+/*.profile-pic-div:hover img{
   opacity: 1;
   filter: brightness(125%)
-}
+}*/
 
 
 img{
@@ -149,7 +159,7 @@ img{
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
 }
 
 .district{
@@ -168,6 +178,10 @@ img{
   background-color: #e51937;
 }
 
+.modal-dialog{
+  
+}
+
 .modal-dialog h3{
   color: #FFFFFF;
 }
@@ -177,7 +191,7 @@ img{
 }
 .nav-tabs{
   border-color: #e51937;
-  font-family: "trade-gothic-bold-condensed";
+  font-family: "solano-gothic-bd";
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus{
@@ -204,7 +218,7 @@ img{
 }
 
 th{
-  font-family: "trade-gothic-bold-condensed";
+  font-family: "solano-gothic-bd";
 }
 
 td{
@@ -225,21 +239,24 @@ td{
 }
 
 footer{
-  font-family: "trade-gothic-bold-condensed";
-  font-size: 20pt;
-  background-color: #36454F;
+  font-family: "solano-gothic-bd";
+  font-size: 15pt;
+  background-color: #e51937;
   padding: 10px;
 }
 
 footer p{
   color: white !important;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 footer h2{
+  font-size: 20pt;
   color: white !important;
 }
 
 footer img{
   border-radius: 0px;
-  width: 200px;
+  width: 150px;
 }

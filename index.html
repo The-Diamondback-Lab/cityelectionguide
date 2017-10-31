@@ -179,12 +179,14 @@
                       <table class="table" ng-hide="votes.length == 0">
                         <thead>
                           <tr>
+                            <th>Year</th>
                             <th>Motion To</th>
                             <th>Vote</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr ng-repeat="vote in votes" class = "{{vote.Sentiment}}">
+                            <td>{{vote.Year}}</td>
                             <td>{{vote['Motion to: ']}}</td>
                             <td>{{vote.Vote}}</td>
                           </tr>
