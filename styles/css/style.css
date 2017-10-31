@@ -1,5 +1,11 @@
 body{
   font-family: 'Lora', serif;
+  background-color: black;
+}
+
+.main-list{
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 p{
@@ -76,6 +82,7 @@ h2{
   font-family: "trade-gothic-bold-condensed";
   font-size:40pt;
   color: #36454F;
+  color: white;
 }
 
 h3{
@@ -114,20 +121,25 @@ h3{
 
 .profile-pic-div{
     text-align: center;
-    background-color: #e51937;
+    /*background-color: #e51937;*/
     padding:1%;
     margin:1%;
     width:250px;
 }
 
 .profile-pic-div:hover {
-  background-color: white;
-  border: 1px solid #e51937;
+  /*background-color: white;
+  border: 1px solid #e51937;*/
   cursor: pointer;
 }
 
 .profile-pic-div:hover h3{
-  color: #e51937;
+  /*color: #e51937;*/
+}
+
+.profile-pic-div:hover img{
+  opacity: 1;
+  filter: brightness(125%)
 }
 
 
@@ -137,6 +149,7 @@ img{
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
+  opacity: 0.8;
 }
 
 .district{
