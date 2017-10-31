@@ -4,8 +4,9 @@ body{
 }
 
 .main-list{
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 90%;
 }
 
 p{
