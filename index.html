@@ -184,18 +184,8 @@
       <div class="modal-header">
         <h3 style="margin-top: 10px">{{name}} - {{election}}</h3>
       </div>
-      <div class="modal-body">
-        <div class="tabbable">
-          <!-- Only required for left/right tabs -->
-          <ul class="nav nav-tabs">
-            <li class="active"><a href="#tab1" data-toggle="tab">Profile</a></li>
-            <li><a href="#tab2" data-toggle="tab">Voter History</a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane active" id="tab1">
-              <p>{{bio}}</p>
-            </div>
-<<<<<<< HEAD
+
+
             <div class="modal-body">
                 <div class="tabbable"> <!-- Only required for left/right tabs -->
                 <ul class="nav nav-tabs">
@@ -204,7 +194,7 @@
                 </ul>
                 <div class="tab-content">
                   <div class="tab-pane active" id="tab1" ng-bind-html="bio">
-                      
+
                   </div>
                   <div class="tab-pane" id="tab2">
                       <table class="table" ng-hide="votes.length == 0">
@@ -221,23 +211,7 @@
                           </tr>
                         </tbody>
                       </table>
-=======
-            <div class="tab-pane" id="tab2">
-              <table class="table" ng-hide="votes.length == 0">
-                <thead>
-                  <tr>
-                    <th>Motion To</th>
-                    <th>Vote</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr ng-repeat="vote in votes" class="{{vote.Sentiment}}">
-                    <td>{{vote['Motion to: ']}}</td>
-                    <td>{{vote.Vote}}</td>
-                  </tr>
-                </tbody>
-              </table>
->>>>>>> 8afcfa149659d01086b4003b77d06d795f7eaef1
+
 
               <div class="col-md-12" ng-show="votes.length == 0">
                 <p>
