@@ -51,6 +51,7 @@ cityApp.controller("main-ctlr", ['$scope','$http','_', function($scope,$http, _)
             $scope.name = person["Name"]
             $scope.election = person["Election"]
             $scope.bio = person["Profile Text"]
+            $scope.photofile = person["Photo file name"]+".jpg"
         })
     }
 
