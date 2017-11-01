@@ -27,15 +27,29 @@
   <script src="js/app.js"></script>
 
   <link rel="stylesheet" href="styles/css/style.css">
+  <link rel="stylesheet" href="styles/css/spinner.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
   <title>DBK City Election Guide</title>
+  <link rel="shortcut icon" href="http://www.dbknews.com/pb/resources/favicon.ico"
+    type="image/x-icon">
+
 </head>
 
 <body ng-controller="main-ctlr">
+
+  <div class="spinner-wrapper">
+    <div class="spinner-container">
+      <center> <img style = "border-radius: 0px;" src="https://s3.amazonaws.com/wapopartners.com/dbknews-wp/wp-content/uploads/2016/12/11225146/SpecialProject.jpg"
+          width="100px" height="auto"><br />
+        <div class="preload"> <span></span> <span></span> <span></span></div>
+      </center>
+    </div>
+  </div>
+
   <div class="container-fluid" id="landing-page">
     <div class="row" id="landing-row">
       <div class="col-lg-12 intro-content">
@@ -266,6 +280,19 @@
 
       <!-- Go to www.addthis.com/dashboard to customize your tools -->
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-599e1f8aa9cc5b6e"></script>
+
+      <!-- Spinner code !-->
+      <script>
+        $(window).on('load', function() {
+          preloaderFadeOutTime = 500;
+
+          function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            preloader.fadeOut(preloaderFadeOutTime);
+          }
+          hidePreloader();
+        });
+      </script>
 
   </footer>
 
