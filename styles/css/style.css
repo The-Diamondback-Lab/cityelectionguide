@@ -29,7 +29,7 @@ body.modal-open {
   background-color: white;
   color: #36454F;
   border: none;
-  font-family: "solano-gothic-rg";
+  font-family: "solano-gothic-sb";
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
@@ -115,6 +115,10 @@ h3{
   font-family: "solano-gothic-sb";
   font-size: 2em;
   color: white;
+}
+
+.lightfont{
+  font-family: "solano-gothic-rg";
 }
 
 #landing-page{
@@ -274,6 +278,7 @@ img{
 
 th{
   font-family: "solano-gothic-bd";
+  font-size: 1.3em;
 }
 
 td{
