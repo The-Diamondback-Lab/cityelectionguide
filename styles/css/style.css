@@ -39,7 +39,7 @@ body.modal-open {
 
 #header-text,
 .intro-text {
-  width: 80%;
+  width: 50%;
   background: rgba(100, 100, 100, 0.6);
 }
 #header-text {
@@ -94,9 +94,14 @@ body.modal-open {
   src: url("../fonts/SolanoGothicMVB-RgCap.otf")
 }
 
+@font-face {
+  font-family: solano-gothic-lt;
+  src: url("../fonts/SolanoGothicMVB-LtCap.otf")
+}
+
 h1{
   font-family: "solano-gothic-bd";
-  font-size:7em;
+  font-size:8em;
   color: white;
 }
 
@@ -127,22 +132,33 @@ h3{
   text-align: center;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1200px) {
   .intro-text{
-    font-size: 1.35em
+    font-size: 1.6em
   }
   h1{
-    font-size: 5em
+    font-size: 6em
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .intro-text{
+    font-size: 1.5em;
+    width: 80%;
+  }
+  h1{
+    font-size: 6em
   }
 }
 
 @media screen and (max-width: 500px) {
   .intro-text{
-    font-size: 1.25em
+    font-size: 1.5em;
+    width: 80%;
   }
 
   h1{
-    font-size: 2.5em
+    font-size: 3em
   }
 }
 
@@ -161,7 +177,8 @@ h3{
 
 .profile-pic-div:hover {
   background-color: white;
-  border: 1px solid #e51937;
+  /*border: 1px solid #e51937;*/
+  box-shadow: 0 0 0 1px #e51937;
   cursor: pointer;
 }
 
@@ -247,7 +264,8 @@ img{
 
 .pulled-quote{
   color: #e51937 !important;
-  font-size: 2.5em;
+  font-size: 2.3em;
+  width: 75%;
 }
 
 #tab2{
@@ -261,6 +279,10 @@ th{
 td{
   border-top: 1px solid black !important;
   vertical-align: middle !important;
+}
+
+.bio p{
+  font-size: 1.1em;
 }
 
 .Positive{
@@ -305,5 +327,9 @@ footer img{
 
   .square{
     width: 50% !important;
+  }
+
+  .pulled-quote{
+    width: 50%;
   }
 }
