@@ -146,6 +146,17 @@ h3{
   text-align: center;
 }
 
+@media only screen and (max-height: 800px) {
+  .intro-text{
+    font-size: 1.6em;
+    width: 80% !important;
+  }
+  h1{
+    font-size: 6em;
+    width: 80% !important;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .intro-text{
     font-size: 1.6em;
@@ -156,7 +167,7 @@ h3{
   }
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .intro-text{
     font-size: 1.5em;
     width: 80%;
