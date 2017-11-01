@@ -157,6 +157,39 @@ h3{
   }
 }
 
+@media only screen and (max-height: 700px) {
+  .intro-text{
+    font-size: 1.4em;
+    width: 90% !important;
+  }
+  h1{
+    font-size: 5em;
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  .intro-text{
+    font-size: 1.3em !important;
+    width: 100% !important;
+  }
+  h1{
+    font-size: 4em !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .intro-text{
+    font-size: 1em !important;
+    width: 100% !important;
+  }
+  h1{
+    font-size: 2em !important;
+    width: 100% !important;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .intro-text{
     font-size: 1.6em;
@@ -169,7 +202,7 @@ h3{
 
 @media only screen and (max-width: 900px) {
   .intro-text{
-    font-size: 1.5em;
+    font-size: 1.3em;
     width: 80%;
   }
   h1{
@@ -178,7 +211,7 @@ h3{
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   .intro-text{
     font-size: 1em;
     width: 80%;
@@ -186,6 +219,17 @@ h3{
 
   h1{
     font-size: 3em;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .intro-text{
+    font-size: 1em;
+    width: 100%;
+  }
+  h1{
+    font-size: 2em;
     width: 100%;
   }
 }
