@@ -6,6 +6,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
   <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.6/angular-sanitize.min.js"></script>
+
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -40,8 +42,8 @@
         <br />
         <h3 class="intro-text">
           This year’s election marks the second time in more than 20 years the four district races and the mayoral race are all contested. The mayoral election is the most contested in city history. Below, we've profiled all 21 candidates and outlined voter history for those with council experience.
-          <br /><br />
-          Election Day is Nov. 7 between 7 a.m. and 8 p.m. District 1 and 4 residents can vote at Davis Hall, and District 2 and 3 residents can vote at City Hall.
+          <!-- <br /><br />
+          Election Day is Nov. 7 between 7 a.m. and 8 p.m. District 1 and 4 residents can vote at Davis Hall, and District 2 and 3 residents can vote at City Hall. -->
         </h3>
       </div>
     </div>
@@ -119,14 +121,13 @@
           <img class="img-responsive lazyload" src="img/douglas.jpg" />
           <h3>Richard Douglas</h3>
         </div>
-      </div>
-      <br/>
-      <div class="row">
-        <div class="col-md-3 profile-pic-div" ng-click="getCandidateInfo('Alex Tobin')" onclick="$('#details').modal('show');">
+        <div class="col-md-3 profile-pic-div" ng-click="getCandidateInfo('Alex Tobin')"
+        onclick="$('#details').modal('show');">
           <img class="img-responsive lazyload" src="img/tobin.jpg" />
           <h3>Alex Tobin</h3>
         </div>
       </div>
+      <br/>
     </div>
 
     <div class="district">
@@ -195,14 +196,18 @@
                       <div class = "row">
                         <div class = "col-md-6">
                           <img class="img-responsive lazyload square" src="img/{{photofile}}" />
+                          <h3 class = "pulled-quote">{{quote}}</h3>
                         </div>
 
-                        <div class = "col-md-6">
-                          <p>{{bio}}</p>
+                        <div class = "col-md-6" data-html="true" ng-bind-html="bio">
+
                         </div>
                       </div>
-
                   </div>
+
+                  <!-- <div class="tab-pane active" id="tab1" ng-bind-html="bio">
+
+                  </div> -->
                   <div class="tab-pane" id="tab2">
                       <table class="table" ng-hide="votes.length == 0">
                         <thead>
