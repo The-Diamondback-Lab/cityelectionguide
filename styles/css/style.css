@@ -3,6 +3,11 @@ body{
   background-color: white;
 }
 
+*{
+  transition: color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+
 .col-md-3{
   min-height:255px; /* test the height you need to enable normal flow of the floats */
 }
@@ -38,8 +43,8 @@ body.modal-open {
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus{
-  background-color: #36454F;
-  color: white;
+  background-color: #36454F !important;
+  color: white !important;
 }
 
 #header-text,
