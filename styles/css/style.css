@@ -39,7 +39,7 @@ body.modal-open {
 
 #header-text,
 .intro-text {
-  width: 50%;
+  width: 55%;
   background: rgba(100, 100, 100, 0.6);
 }
 #header-text {
@@ -136,33 +136,36 @@ h3{
   text-align: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .intro-text{
-    font-size: 1.6em
+    font-size: 1.6em;
+    width: 60%;
   }
   h1{
-    font-size: 6em
+    font-size: 6em;
   }
 }
 
-@media screen and (max-width: 930px) {
+@media only screen and (max-width: 930px) {
   .intro-text{
     font-size: 1.5em;
     width: 80%;
   }
   h1{
-    font-size: 6em
+    font-size: 6em;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .intro-text{
-    font-size: 1.5em;
+    font-size: 1em;
     width: 80%;
   }
 
   h1{
-    font-size: 3em
+    font-size: 3em;
+    width: 100%;
   }
 }
 
@@ -327,7 +330,7 @@ footer img{
 
 @media screen and (max-width: 1000px) {
   .modal-dialog{
-    width: 600px !important;
+    width: 80% !important;
   }
 
   .square{
@@ -336,5 +339,18 @@ footer img{
 
   .pulled-quote{
     width: 50%;
+    font-size: 1.3em;
+  }
+
+  .bio p{
+    font-size: 0.7em;
+  }
+
+  td, th{
+    font-size: 0.7em;
+  }
+
+  .modal-dialog h3{
+    font-size: 1.2em;
   }
 }
