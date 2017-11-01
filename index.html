@@ -103,27 +103,27 @@
     <div class="district">
       <h2>District 2</h2>
       <div class="row">
-        <div class="col-sm-6 col-lg-3 profile-pic-div" ng-click="getCandidateInfo('Daniel Blasberg')"
+        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Daniel Blasberg')"
           onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
           <img class="img-responsive lazyload" src="img/blasberg.jpg" />
           <h3>Daniel Blasberg</h3>
         </div>
-        <div class="col-sm-6 col-lg-3 profile-pic-div" ng-click="getCandidateInfo('P.J. Brennan')"
+        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('P.J. Brennan')"
           onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
           <img class="img-responsive lazyload" src="img/brennan.jpg" />
           <h3>P.J. Brennan</h3>
         </div>
-        <div class="col-sm-6 col-lg-3 profile-pic-div" ng-click="getCandidateInfo('Monroe Dennis')"
+        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Monroe Dennis')"
           onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
           <img class="img-responsive lazyload" src="img/dennis.jpg" />
           <h3>Monroe Dennis</h3>
         </div>
-        <div class="col-sm-6 col-lg-3 profile-pic-div" ng-click="getCandidateInfo('Richard Douglas')"
+        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Richard Douglas')"
           onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
           <img class="img-responsive lazyload" src="img/douglas.jpg" />
           <h3>Richard Douglas</h3>
         </div>
-        <div class="col-sm-6 col-lg-3 profile-pic-div" ng-click="getCandidateInfo('Alex Tobin')"
+        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Alex Tobin')"
         onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
           <img class="img-responsive lazyload" src="img/tobin.jpg" />
           <h3>Alex Tobin</h3>
@@ -204,8 +204,10 @@
                           <h3 class = "pulled-quote">{{quote}}</h3>
                         </div>
 
-                        <div class = "col-md-6 bio" data-html="true" ng-bind-html="bio">
-
+                        <div class = "col-md-6 bio">
+                          <div data-html="true" ng-bind-html="bio">
+                          </div>
+                          <p>
                         </div>
                       </div>
                   </div>
@@ -252,7 +254,7 @@
         <div class="col-md-6">
           <h2>Credits</h2>
           <p>Reporting: <span class = "lightfont">Leah Brennan</span></p>
-          <p>Design: <span class = "lightfont">Akshay Guthal, Siddy Tuli</span></p>
+          <p>Website Design: <span class = "lightfont">Akshay Guthal, Siddy Tuli</span></p>
           <br />
           <a href="http://dbknews.com" target="_blank"><img src="img/dbk-widelogo.png" alt=""></a>
         </div>

@@ -3,6 +3,11 @@ body{
   background-color: white;
 }
 
+.col-md-3{
+  min-height:255px; /* test the height you need to enable normal flow of the floats */
+}
+
+
 .main-list{
   margin-right: auto;
   margin-left: auto;
@@ -39,7 +44,7 @@ body.modal-open {
 
 #header-text,
 .intro-text {
-  width: 55%;
+  width: 50%;
   background: rgba(100, 100, 100, 0.6);
 }
 #header-text {
@@ -49,7 +54,7 @@ body.modal-open {
 }
 .intro-text{
   font-size: 2.5em;
-  padding: 2em;
+  padding: 1em;
   font-family: solano-gothic-lc;
 }
 #landing-row{
