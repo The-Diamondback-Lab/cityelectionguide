@@ -1,4 +1,4 @@
-John Rigg,rigg,District 3,true,"I'm passionate about city issues, and I'm passionate about the city of College Park."
+John B. Rigg,rigg,District 3,true,"I'm passionate about city issues, and I'm passionate about the city of College Park."
 
 Rigg is a current District 3 councilmember running for his second term. Prior to his election, Rigg served five years as president of the Calvert Hills Citizens Association and two years on the Advisory Planning Commission.
 

@@ -1,4 +1,4 @@
-Micheal Emmanuel,emmanuel,District 4,false,InsertQuote
+Micheal O. Emmanuel,emmanuel,District 4,false,InsertQuote
 
 This is Emmanuel’s first time running for a city-level position. A University of Maryland graduate, he previously served as the academic affairs vice president on the Student Governance Board.
 
