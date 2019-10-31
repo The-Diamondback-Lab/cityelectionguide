@@ -1,5 +1,5 @@
 var fs = require('fs').promises;
-var mkdirp = require('mkdirp-promise');
+var recursiveReaddir = require('recursive-readdir');
 
 const WARNING_DIRECTIVES = {
   FULL_NAME: "InsertFullName",
@@ -69,15 +69,16 @@ function parseProfileFile(filename, text) {
 }
 
 var srcDir = './profile_data/unparsed';
-var destDir = './profile_data/parsed';
 
 (async() => {
-  await mkdirp(destDir);
+  let files = await recursiveReaddir(srcDir);
 
-  let files = await fs.readdir(srcDir, { withFileTypes: true });
-  files.map(async(file) => {
-    if (file.isDirectory()) return;
-    let text = (await fs.readFile(`${srcDir}/${file.name}`)).toString();
-    let profile = parseProfileFile(`${srcDir}/${file.name}`, text);
-  });
+  let profiles = await Promise.all(files.map(async(filename) => {
+    let text = (await fs.readFile(filename)).toString();
+    let profile = parseProfileFile(filename, text);
+
+    return profile;
+  }));
+
+  await fs.writeFile('includes/organized-profiles.json', JSON.stringify(profiles, null, 2));
 })();

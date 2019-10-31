@@ -35,6 +35,6 @@
   "homepage": "https://github.com/The-Diamondback-Lab/cityelectionguide#readme",
   "devDependencies": {
     "http-server": "^0.11.1",
-    "mkdirp-promise": "^5.0.1"
+    "recursive-readdir": "^2.2.2"
   }
 }
