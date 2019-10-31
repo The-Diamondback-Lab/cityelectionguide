@@ -1,5 +1,5 @@
-var fs = require('fs');
-var mkdirp = require('mkdirp');
+var fs = require('fs').promises;
+var mkdirp = require('mkdirp-promise');
 
 /**
  * @param {string} text
@@ -17,9 +17,13 @@ function parseProfileFile(text) {
 var srcDir = './profile_data/unparsed';
 var destDir = './profile_data/parsed';
 
-mkdirp.sync(destDir);
+(async() => {
+  await mkdirp(destDir);
 
-fs.readdirSync(srcDir).map(file => {
-  let text = fs.readFileSync(`${srcDir}/${file}`).toString();
-  fs.writeFileSync(`${destDir}/${file}`, parseProfileFile(text));
-});
+  let files = await fs.readdir(srcDir, { withFileTypes: true });
+  files.map(async(file) => {
+    if (file.isDirectory()) return;
+    let text = (await fs.readFile(`${srcDir}/${file.name}`)).toString();
+    await fs.writeFile(`${destDir}/${file.name}`, parseProfileFile(text));
+  });
+})();
