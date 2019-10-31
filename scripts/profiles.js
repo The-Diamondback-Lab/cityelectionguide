@@ -11,8 +11,7 @@ function parseProfileFile(text) {
     .map(s => s.replace('’', '\''));
 
   let rawBaseData = lines[0].split(',');
-  lines.slice(1).map(line => `<p>${line}</p>`)
-    .join('');
+  return lines.slice(1).map(line => `<p>${line}</p>`).join('');
 }
 
 var srcDir = './profile_data/unparsed';
