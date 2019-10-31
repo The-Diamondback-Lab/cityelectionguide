@@ -5,7 +5,7 @@ const WARNING_DIRECTIVES = {
   FULL_NAME: "InsertFullName",
   PICTURE_FILENAME: "InsertPictureFilename",
   POSITION: "InsertPosition",
-  QUOTE: "InsertQuoteHere"
+  QUOTE: "InsertQuote"
 }
 
 /**
