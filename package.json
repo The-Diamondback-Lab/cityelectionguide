@@ -33,7 +33,7 @@
     "url": "https://github.com/The-Diamondback-Lab/cityelectionguide/issues"
   },
   "homepage": "https://github.com/The-Diamondback-Lab/cityelectionguide#readme",
-  "dependencies": {
+  "devDependencies": {
     "http-server": "^0.11.1",
     "mkdirp": "^0.5.1"
   }
