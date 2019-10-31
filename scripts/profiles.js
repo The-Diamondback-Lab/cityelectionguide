@@ -69,6 +69,17 @@ function parseProfileFile(filename, text) {
     console.warn(`Candidate ${profile.fullName} does not have a valid quote`);
   }
 
+  // Wrap the candidate's quote in actual quotes if need be
+  if (!/^\".*\"$/.test(profile.quote)) {
+    if (!profile.quote.startsWith('"')) {
+      profile.quote = '"' + profile.quote;
+    }
+
+    if (!profile.quote.endsWith('"')) {
+      profile.quote += '"';
+    }
+  }
+
   return profile;
 }
 
