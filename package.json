@@ -1,0 +1,40 @@
+{
+  "name": "cityelectionguide",
+  "version": "1.0.0",
+  "description": "A website displaying info about College Park, MD election candidates",
+  "scripts": {
+    "dev": "http-server -c-1 -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Diamondback-Lab/cityelectionguide.git"
+  },
+  "keywords": [
+    "javascript",
+    "angular",
+    "bootstrap",
+    "html",
+    "css"
+  ],
+  "contributors": [
+    {
+      "name": "Akshay Guthal"
+    },
+    {
+      "name": "Siddy Tuli"
+    },
+    {
+      "name": "Vishal Patel",
+      "email": "vpatel14@terpmail.umd.edu"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Diamondback-Lab/cityelectionguide/issues"
+  },
+  "homepage": "https://github.com/The-Diamondback-Lab/cityelectionguide#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "recursive-readdir": "^2.2.2"
+  }
+}

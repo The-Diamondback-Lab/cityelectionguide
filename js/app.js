@@ -6,6 +6,7 @@ function LodashFactory($window) {
     // mock service, try to load it from somewhere else,
     // redirect the user to a dedicated error page, ...
   }
+
   return $window._;
 }
 
@@ -15,45 +16,46 @@ LodashFactory.$inject = ['$window'];
 // Register factory
 cityApp.factory('_', LodashFactory);
 
-cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", function($scope,$http, _, $sce) {
-    function loadVoteData() {
-        return $http.get("includes/data/votes.json").then(function(data){
-            return data.data;
-        });
-    }
-    function loadProfileData() {
-        return $http.get("includes/data/profiles.json").then(function(data){
-            return data.data[0];
-        });
-    }
+cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _, $sce) => {
+  function loadVoteData() {
+    return $http.get("includes/data/votes.json").then(function(data){
+      return data.data;
+    });
+  }
 
-    profilesRequest = loadProfileData();
-    votesRequest = loadVoteData();
+  function loadProfileData() {
+    return $http.get("includes/data/profiles.json").then(function(data){
+      return data.data[0];
+    });
+  }
 
-    $scope.voteData = []
-    $scope.bio = ""
-    $scope.election = ""
-    $scope.name = ""
+  profilesRequest = loadProfileData();
+  votesRequest = loadVoteData();
 
-    $scope.getCandidateInfo = function(candidate) {
-        getVotes(candidate)
-        getProfile(candidate)
-    }
-    function getVotes(candidate) {
-        votesRequest.then(function(data){
-            $scope.votes = _.filter(data,{"Candidate":candidate})
-        });
-    }
+  $scope.voteData = []
+  $scope.bio = ""
+  $scope.election = ""
+  $scope.name = ""
 
-    function getProfile(candidate) {
-        profilesRequest.then(function(data){
-            person = data[candidate]
-            $scope.name = person["Name"]
-            $scope.election = person["Election"]
-            $scope.bio = person["Profile Text"]
-            $scope.quote = person["Pulled Quote"]
-            $scope.photofile = person["Photo file name"]+".jpg"
-        })
-    }
+  $scope.getCandidateInfo = function(candidate) {
+    getVotes(candidate)
+    getProfile(candidate)
+  }
 
+  function getVotes(candidate) {
+    votesRequest.then(function(data){
+      $scope.votes = _.filter(data,{"Candidate":candidate})
+    });
+  }
+
+  function getProfile(candidate) {
+    profilesRequest.then(function(data){
+      person = data[candidate]
+      $scope.name = person["Name"]
+      $scope.election = person["Election"]
+      $scope.bio = person["Profile Text"]
+      $scope.quote = person["Pulled Quote"]
+      $scope.photofile = person["Photo file name"]+".jpg"
+    })
+  }
 }]);
