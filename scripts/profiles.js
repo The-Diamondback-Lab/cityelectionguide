@@ -35,8 +35,8 @@ const WARNING_DIRECTIVES = {
 function parseProfileFile(filename, text) {
   let lines = text.split(/\r?\n/)
     .filter(s => s.length > 0)
-    .map(s => s.replace(/“|”/, '"'))
-    .map(s => s.replace('’', '\''));
+    .map(s => s.replace(/“|”/g, '"'))
+    .map(s => s.replace(/’/g, '\''));
 
   let candidateInfo = lines[0].split(',');
 
