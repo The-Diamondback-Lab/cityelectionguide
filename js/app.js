@@ -56,6 +56,6 @@ cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _,
       $scope.bio = person["Profile Text"]
       $scope.quote = person["Pulled Quote"]
       $scope.photofile = person["Photo file name"]+".jpg"
-    })
+    });
   }
 }]);
