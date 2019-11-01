@@ -5,8 +5,10 @@ var buildVotes = require('./scripts/votes');
 async function build(cb) {
   await mkdirp('./build');
 
-  await buildProfile('./data/profiles/', 'build/profiles.json');
-  await buildVotes('./data/votes.txt', 'build/votes.json')
+  let profiles = await buildProfile('./data/profiles/', 'build/profiles.json');
+
+  let nameMap = new Map(profiles.map(p => [p.fullName.split(' ').pop(), p.fullName]));
+  await buildVotes('./data/votes.tsv', nameMap, 'build/votes.json');
 
   cb();
 }
