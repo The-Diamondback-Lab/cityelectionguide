@@ -38,13 +38,13 @@ cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _,
   $scope.name = ""
 
   $scope.getCandidateInfo = function(candidate) {
-    getVotes(candidate)
-    getProfile(candidate)
+    getVotes(candidate);
+    getProfile(candidate);
   }
 
   function getVotes(candidate) {
     votesRequest.then(function(data){
-      $scope.votes = _.filter(data,{"Candidate":candidate})
+      $scope.votes = _.filter(data, { "Candidate": candidate })
     });
   }
 
