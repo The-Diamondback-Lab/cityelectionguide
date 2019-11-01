@@ -25,7 +25,7 @@ cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _,
 
   function loadProfileData() {
     return $http.get("includes/data/profiles.json").then(function(data){
-      return data.data[0];
+      return data.data;
     });
   }
 
@@ -49,13 +49,14 @@ cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _,
   }
 
   function getProfile(candidate) {
-    profilesRequest.then(function(data){
-      person = data[candidate]
-      $scope.name = person["Name"]
-      $scope.election = person["Election"]
-      $scope.bio = person["Profile Text"]
-      $scope.quote = person["Pulled Quote"]
-      $scope.photofile = person["Photo file name"]+".jpg"
+    profilesRequest.then(function(profiles){
+      let profile = profiles.find(p => p.fullName === candidate);
+
+      $scope.name = profile.fullName;
+      $scope.election = profile.position + (profile.isIncumbent ? ' (Incumbent)' : '');
+      $scope.bio = profile.bio;
+      $scope.quote = profile.quote;
+      $scope.photofile = profile.pictureFileBaseName+".jpg"
     });
   }
 }]);

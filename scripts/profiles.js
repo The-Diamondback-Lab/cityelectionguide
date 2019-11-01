@@ -19,10 +19,6 @@ const WARNING_DIRECTIVES = {
  */
 
 /**
- * @typedef {Object.<string,string>} OldCandidateProfile
- */
-
-/**
  * Converts a profile text file to a profile-data object.
  *
  * The file should have it's first line dedicated to CSV data that specifies
@@ -95,24 +91,5 @@ var srcDir = './raw_profile_data/';
     return profile;
   }));
 
-  await fs.writeFile('includes/organized-profiles.json', JSON.stringify(profiles, null, 2));
-
-  /**
-   * @type {Object.<string,OldCandidateProfile>}
-   */
-  let profilesAsObject = {};
-
-  profiles.forEach(profile => {
-    let electionValue = profile.position + (profile.isIncumbent ? ' (Incumbent)' : '');
-
-    profilesAsObject[profile.fullName] = {
-      'Election': electionValue,
-      'Name': profile.fullName,
-      'Photo file name': profile.pictureFileBaseName,
-      'Profile Text': profile.bio,
-      'Pulled Quote': profile.quote
-    };
-  });
-
-  await fs.writeFile('includes/data/profiles.json', JSON.stringify([profilesAsObject], null, 2));
+  await fs.writeFile('includes/data/profiles.json', JSON.stringify(profiles, null, 2));
 })();
