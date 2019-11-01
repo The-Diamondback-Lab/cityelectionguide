@@ -18,13 +18,13 @@ cityApp.factory('_', LodashFactory);
 
 cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _, $sce) => {
   function loadVoteData() {
-    return $http.get("includes/data/votes.json").then(function(data){
+    return $http.get("build/votes.json").then(function(data){
       return data.data;
     });
   }
 
   function loadProfileData() {
-    return $http.get("includes/data/profiles.json").then(function(data){
+    return $http.get("build/profiles.json").then(function(data){
       return data.data;
     });
   }

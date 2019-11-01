@@ -3,10 +3,10 @@ var buildProfile = require('./scripts/profiles');
 var buildVotes = require('./scripts/votes');
 
 async function build(cb) {
-  await mkdirp('./includes/data');
+  await mkdirp('./build');
 
-  await buildProfile('./data/profiles/', 'includes/data/profiles.json');
-  await buildVotes('./data/votes.txt', 'includes/data/votes.json')
+  await buildProfile('./data/profiles/', 'build/profiles.json');
+  await buildVotes('./data/votes.txt', 'build/votes.json')
 
   cb();
 }
