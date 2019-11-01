@@ -91,5 +91,7 @@ var srcDir = './raw_profile_data/';
     return profile;
   }));
 
+  profiles.sort((a, b) => a.position.localeCompare(b.position));
+
   await fs.writeFile('includes/data/profiles.json', JSON.stringify(profiles, null, 2));
 })();
