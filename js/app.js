@@ -32,10 +32,10 @@ cityApp.controller('main-ctlr', ['$scope','$http','_','$sce', ($scope, $http, _,
   profilesRequest = loadProfileData();
   votesRequest = loadVoteData();
 
-  $scope.voteData = []
-  $scope.bio = ''
-  $scope.election = ''
-  $scope.name = ''
+  $scope.voteData = [];
+  $scope.bio = '';
+  $scope.election = '';
+  $scope.name = '';
 
   $scope.getCandidateInfo = function(candidate) {
     getVotes(candidate);
