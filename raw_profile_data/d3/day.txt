@@ -1,4 +1,8 @@
-Robert W. Day,day,District 3,true,"We have a lot of growth that is going to be coming our way, and we need to do it in a smart way."
+Robert W. Day
+day
+District 3
+true
+"We want this to be a home where people don't want to leave, and they want to be here forever."
 
 Robert Day, who currently represents District 3, is running for his fifth term.
 

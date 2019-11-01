@@ -42,7 +42,7 @@ function parseProfileFile(filename, text) {
     .map(s => s.replace(/“|”/g, '"'))
     .map(s => s.replace(/’/g, '\''));
 
-  let candidateInfo = lines[0].split(',');
+  let candidateInfo = lines.splice(0,5);
 
   /**
    * @type {CandidateProfile}
@@ -53,7 +53,7 @@ function parseProfileFile(filename, text) {
     position: candidateInfo[2],
     isIncumbent: candidateInfo[3] === 'true',
     quote: candidateInfo[4],
-    bio: lines.slice(1).map(line => `<p>${line}</p>`).join('')
+    bio: lines.map(line => `<p>${line}</p>`).join('')
   };
 
   // Print out any warnings that we can catch

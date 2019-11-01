@@ -1,4 +1,8 @@
-Maria E. Mackie,mackie,District 4,false,InsertQuote
+Maria E. Mackie
+mackie
+District 4
+false
+"This has been my home for so long that I just really care about what’s going on in the city."
 
 Maria Mackie is a long-time District 4 resident running for office for the first time. Mackie grew up in College Park, left to attend college at the University of Delaware, and returned over 20 years ago to live here with her family.
 

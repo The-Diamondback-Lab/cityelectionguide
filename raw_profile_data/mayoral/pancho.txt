@@ -1,4 +1,8 @@
-Nikesha Pancho,pancho,Mayoral,false,InsertQuote
+Nikesha Pancho
+pancho
+Mayoral
+false
+"Everyone has a voice."
 
 Although Nikesha Pancho has never run for public office before, she’s been involved at the “grassroots level of every part of government” for years.
 
