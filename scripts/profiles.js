@@ -1,6 +1,14 @@
 var fs = require('fs');
 var recursiveReaddir = require('recursive-readdir');
 
+/**
+ * A set of warning directives that are intended to be used as
+ * placeholder values when not enough information for a candidate is
+ * given. For example, a candidate that does not have a quote shoould
+ * use the `QUOTE` warning directive, so when parsing that candidate's
+ * profile file, a warning will print out saying they have an invalid
+ * quote.
+ */
 const WARNING_DIRECTIVES = {
   FULL_NAME: "InsertFullName",
   PICTURE_FILENAME: "InsertPictureFilename",
@@ -33,12 +41,14 @@ const WARNING_DIRECTIVES = {
  * @returns {CandidateProfile}
  */
 function parseProfileFile(filename, text) {
+  // Split lines, get rid of empty ones,
+  // sanitize special quotes/apostrophe characters
   let lines = text.split(/\r?\n/)
     .filter(s => s.length > 0)
     .map(s => s.replace(/“|”/g, '"'))
     .map(s => s.replace(/’/g, '\''));
 
-  let candidateInfo = lines.splice(0,5);
+  let candidateInfo = lines.splice(0, 5);
 
   /**
    * @type {CandidateProfile}
@@ -79,26 +89,48 @@ function parseProfileFile(filename, text) {
   return profile;
 }
 
-async function buildProfile(srcDir, output) {
-  let files = await recursiveReaddir(srcDir);
+/**
+ * Builds a list of candidate profiles given a directory to read files from.
+ *
+ * @param {string} srcDir where to recursively read profile files from
+ * @param {string} output where to write parsed profile objects to
+ * @returns {Promise.<CandidateProfile[]>} a list of candidate of profiles
+ */
+function buildProfile(srcDir, output) {
+  return new Promise(async (resolve, reject) => {
+    let files = await recursiveReaddir(srcDir);
 
-  let profiles = await Promise.all(files.map(filename => new Promise((resolve, reject) => {
-    fs.readFile(filename, (err, data) => {
-      if (err) {
-        reject(err);
-      }
+    // Go over every file in the src directory and parse each file as a candidate profile
+    /**
+     * List of candidate profiles.
+     * @type CandidateProfile[]
+     */
+    let profiles = await Promise.all(files.map(filename => new Promise((resolve, reject) => {
+      fs.readFile(filename, (err, data) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(parseProfileFile(filename, data.toString()));
+        }
+      })
+    })));
 
-      resolve(parseProfileFile(filename, data.toString()));
-    })
-  })));
+    // Sort candidate profiles by the candidate's position they are running for
+    profiles.sort((a, b) => a.position.localeCompare(b.position));
 
-  profiles.sort((a, b) => a.position.localeCompare(b.position));
-
-  if (output != null) {
-    fs.writeFileSync(output, JSON.stringify(profiles, null, 2));
-  }
-
-  return profiles;
+    // Write out to a file if given a destination path.
+    if (output != null) {
+      fs.writeFile(output, JSON.stringify(profiles), err => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(profiles);
+        }
+      });
+    } else {
+      resolve(profiles);
+    }
+  });
 };
 
 module.exports = buildProfile;
