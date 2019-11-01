@@ -1,4 +1,4 @@
-var cityApp = angular.module("cityApp",['ngSanitize']);
+var cityApp = angular.module('cityApp', ['ngSanitize']);
 
 function LodashFactory($window) {
   if(!$window._){
@@ -16,15 +16,15 @@ LodashFactory.$inject = ['$window'];
 // Register factory
 cityApp.factory('_', LodashFactory);
 
-cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _, $sce) => {
+cityApp.controller('main-ctlr', ['$scope','$http','_','$sce', ($scope, $http, _, $sce) => {
   function loadVoteData() {
-    return $http.get("build/votes.json").then(data => {
+    return $http.get('build/votes.json').then(data => {
       return data.data;
     });
   }
 
   function loadProfileData() {
-    return $http.get("build/profiles.json").then(data => {
+    return $http.get('build/profiles.json').then(data => {
       return data.data;
     });
   }
@@ -33,9 +33,9 @@ cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _,
   votesRequest = loadVoteData();
 
   $scope.voteData = []
-  $scope.bio = ""
-  $scope.election = ""
-  $scope.name = ""
+  $scope.bio = ''
+  $scope.election = ''
+  $scope.name = ''
 
   $scope.getCandidateInfo = function(candidate) {
     getVotes(candidate);
@@ -56,7 +56,7 @@ cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _,
       $scope.election = profile.position + (profile.isIncumbent ? ' (Incumbent)' : '');
       $scope.bio = profile.bio;
       $scope.quote = profile.quote;
-      $scope.photofile = profile.pictureFileBaseName+".jpg"
+      $scope.photofile = profile.pictureFileBaseName + '.jpg'
     });
   }
 }]);
