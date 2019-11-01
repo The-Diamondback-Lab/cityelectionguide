@@ -18,13 +18,13 @@ cityApp.factory('_', LodashFactory);
 
 cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _, $sce) => {
   function loadVoteData() {
-    return $http.get("build/votes.json").then(function(data){
+    return $http.get("build/votes.json").then(data => {
       return data.data;
     });
   }
 
   function loadProfileData() {
-    return $http.get("build/profiles.json").then(function(data){
+    return $http.get("build/profiles.json").then(data => {
       return data.data;
     });
   }
@@ -43,13 +43,13 @@ cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _,
   }
 
   function getVotes(candidate) {
-    votesRequest.then(function(data){
+    votesRequest.then(data => {
       $scope.votes = _.filter(data, { candidate })
     });
   }
 
   function getProfile(candidate) {
-    profilesRequest.then(function(profiles){
+    profilesRequest.then(profiles => {
       let profile = profiles.find(p => p.fullName === candidate);
 
       $scope.name = profile.fullName;
