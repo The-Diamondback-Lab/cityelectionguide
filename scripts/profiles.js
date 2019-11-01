@@ -114,5 +114,5 @@ var srcDir = './raw_profile_data/';
     };
   });
 
-  await fs.writeFile('includes/profiles-new.json', JSON.stringify([profilesAsObject], null, 2));
+  await fs.writeFile('includes/data/profiles.json', JSON.stringify([profilesAsObject], null, 2));
 })();
