@@ -11,4 +11,7 @@ async function build(cb) {
   cb();
 }
 
-exports.default = build;
+module.exports = {
+  default: build,
+  build: build
+}

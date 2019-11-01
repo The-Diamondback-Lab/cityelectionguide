@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A website displaying info about College Park, MD election candidates",
   "scripts": {
-    "build": "gulp",
-    "dev": "http-server -c-1 -d"
+    "build": "gulp build",
+    "dev": "npm run build && http-server -c-1 -d"
   },
   "repository": {
     "type": "git",
