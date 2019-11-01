@@ -4,7 +4,7 @@ var buildProfile = require('./scripts/profiles');
 async function build(cb) {
   await mkdirp('./includes/data');
 
-  await buildProfile('./data/profile/', 'includes/data/profiles.json');
+  await buildProfile('./data/profiles/', 'includes/data/profiles.json');
 
   cb();
 }
