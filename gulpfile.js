@@ -1,3 +1,4 @@
+var rimraf = require('rimraf');
 var mkdirp = require('mkdirp-promise');
 var buildProfile = require('./scripts/profiles');
 var buildVotes = require('./scripts/votes');
@@ -13,7 +14,14 @@ async function build(cb) {
   cb();
 }
 
+function clean(cb) {
+  rimraf('./build', err => {
+    cb(err);
+  });
+}
+
 module.exports = {
-  default: build,
-  build: build
+  default: clean,
+  build: build,
+  clean: clean
 }
