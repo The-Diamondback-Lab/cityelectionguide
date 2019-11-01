@@ -79,9 +79,7 @@ function parseProfileFile(filename, text) {
   return profile;
 }
 
-var srcDir = './data/profile/';
-
-(async() => {
+async function buildProfile(srcDir, output) {
   let files = await recursiveReaddir(srcDir);
 
   let profiles = await Promise.all(files.map(async(filename) => {
@@ -93,5 +91,11 @@ var srcDir = './data/profile/';
 
   profiles.sort((a, b) => a.position.localeCompare(b.position));
 
-  await fs.writeFile('includes/data/profiles.json', JSON.stringify(profiles, null, 2));
-})();
+  if (output != null) {
+    await fs.writeFile(output, JSON.stringify(profiles, null, 2));
+  }
+
+  return profiles;
+};
+
+module.exports = buildProfile;
