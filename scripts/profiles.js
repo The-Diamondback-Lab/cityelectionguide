@@ -1,4 +1,4 @@
-var fs = require('fs').promises;
+var fs = require('fs');
 var recursiveReaddir = require('recursive-readdir');
 
 const WARNING_DIRECTIVES = {
@@ -82,17 +82,20 @@ function parseProfileFile(filename, text) {
 async function buildProfile(srcDir, output) {
   let files = await recursiveReaddir(srcDir);
 
-  let profiles = await Promise.all(files.map(async(filename) => {
-    let text = (await fs.readFile(filename)).toString();
-    let profile = parseProfileFile(filename, text);
+  let profiles = await Promise.all(files.map(filename => new Promise((resolve, reject) => {
+    fs.readFile(filename, (err, data) => {
+      if (err) {
+        reject(err);
+      }
 
-    return profile;
-  }));
+      resolve(parseProfileFile(filename, data.toString()));
+    })
+  })));
 
   profiles.sort((a, b) => a.position.localeCompare(b.position));
 
   if (output != null) {
-    await fs.writeFile(output, JSON.stringify(profiles, null, 2));
+    fs.writeFileSync(output, JSON.stringify(profiles, null, 2));
   }
 
   return profiles;
