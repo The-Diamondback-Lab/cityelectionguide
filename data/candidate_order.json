@@ -1,0 +1,47 @@
+[
+  {
+    "position": "Mayoral",
+    "title": "Mayoral Candidates",
+    "class": "district mayor",
+    "candidates": [
+      "Patrick Wojahn",
+      "Nikesha Pancho",
+      "Lalzarliana Malsawma"
+    ]
+  },
+  {
+    "position": "District 1",
+    "class": "district",
+    "candidates": [
+      "Fazlul Kabir",
+      "Kate Kennedy"
+    ]
+  },
+  {
+    "position": "District 2",
+    "class": "district",
+    "candidates": [
+      "P.J. Brennan",
+      "Monroe Dennis",
+      "Oscar Gregory"
+    ]
+  },
+  {
+    "position": "District 3",
+    "class": "district",
+    "candidates": [
+      "Robert Day",
+      "Mark Mullauer",
+      "John Rigg"
+    ]
+  },
+  {
+    "position": "District 4",
+    "class": "district",
+    "candidates": [
+      "Micheal Emmanuel",
+      "Maria Mackie",
+      "Denise Mitchell"
+    ]
+  }
+]

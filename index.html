@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <!-- Humanize -->
+  <script src="js/humanize.min.js"></script>
+
   <!-- Angular and plugins for it -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
@@ -65,23 +69,13 @@
     </div>
   </div>
   <div class="container main-list">
-    <div class="district mayor">
+    <!-- <div class="district mayor">
       <h2>Mayoral Candidates</h2>
       <div class="row">
         <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Patrick Wojahn')"
           onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
           <img class="img-responsive lazyload" src="img/wojahn.jpg" />
           <h3>Patrick Wojahn</h3>
-        </div>
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Nikesha Pancho')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/pancho.jpg" />
-          <h3>Nikesha Pancho</h3>
-        </div>
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Lalzarliani Malsawma')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/malsawma.jpg" />
-          <h3>Lalzarliani Malsawma</h3>
         </div>
       </div>
     </div>
@@ -93,77 +87,8 @@
           <img class="img-responsive lazyload" src="img/kabir.jpg" />
           <h3>Fazlul Kabir</h3>
         </div>
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Kate Kennedy')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/kennedy.jpg" />
-          <h3>Kate Kennedy</h3>
-        </div>
       </div>
-    </div>
-
-    <div class="district">
-      <h2>District 2</h2>
-      <div class="row">
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('P.J. Brennan')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/brennan.jpg" />
-          <h3>P.J. Brennan</h3>
-        </div>
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Monroe Dennis')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/dennis.jpg" />
-          <h3>Monroe Dennis</h3>
-        </div>
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Oscar Gregory')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/gregory.jpg" />
-          <h3>Oscar Gregory</h3>
-        </div>
-      </div>
-      <br />
-    </div>
-
-    <div class="district">
-      <h2>District 3</h2>
-      <div class="row">
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Robert Day')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/day.jpg" />
-          <h3>Robert Day</h3>
-        </div>
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Mark Mullauer')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/mullauer.jpg" />
-          <h3>Mark Mullauer</h3>
-        </div>
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('John Rigg')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/rigg.jpg" />
-          <h3>John Rigg</h3>
-        </div>
-      </div>
-    </div>
-
-    <div class="district">
-      <h2>District 4</h2>
-      <div class="row">
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Micheal Emmanuel')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/emmanuel.jpg" />
-          <h3>Micheal Emmanuel</h3>
-        </div>
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Maria Mackie')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/mackie.jpg" />
-          <h3>Maria Mackie</h3>
-        </div>
-        <div class="col-sm-6 col-md-3 profile-pic-div" ng-click="getCandidateInfo('Denise Mitchell')"
-          onclick="$('.nav-tabs a:first').tab('show'); $('#details').modal('show');">
-          <img class="img-responsive lazyload" src="img/mitchell.jpg" />
-          <h3>Denise Mitchell</h3>
-        </div>
-      </div>
-    </div>
+    </div> -->
   </div>
 
   <div id="details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="windowTitleLabel">

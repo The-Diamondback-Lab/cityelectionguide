@@ -21,6 +21,44 @@ cityApp.controller('main-ctlr', ['$scope','$http','_','$sce', ($scope, $http, _,
     return $http.get(path).then(data => data.data);
   }
 
+  // Populate main page with candidate elements
+  req('data/candidate_order.json').then(groups => {
+    groups.forEach(group => {
+      let title = group.title || group.position;
+      let classes = group.class;
+      let candidates = group.candidates;
+
+      let foo = $('.container.main-list');
+      let mainDiv = $(`<div class="${classes}"></div>`);
+      // mainDiv.addClass(classes);
+      foo.append(mainDiv);
+
+      let header = $(`<h2>${title}</h2>`);
+      let row = $(`<div class="row"></div>`);
+      mainDiv.append(header);
+      mainDiv.append(row);
+
+      candidates.forEach(candidate => {
+        let div = $('<div></div>');
+        div.attr('class', 'col-sm-6 col-md-3 profile-pic-div');
+        div.attr('ng-click', `getCandidateInfo('${candidate}')`);
+        div.click(function() {
+          $('.nav-tabs a:first').tab('show'); $('#details').modal('show');
+        });
+
+        let img = $('<img />');
+        img.attr('class', 'img-responsive lazyload');
+        img.attr('src', `img/${candidate.split(' ').pop().toLowerCase()}.jpg`);
+        let header = $(`<h3>${Humanize.capitalizeAll(candidate.toLowerCase())}</h3>`);
+
+        div.append(img);
+        div.append(header);
+
+        row.append(div);
+      });
+    });
+  });
+
   profilesRequest = req('build/profiles.json');
   votesRequest = req('build/votes.json');
 
