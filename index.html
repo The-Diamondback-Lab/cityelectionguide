@@ -197,16 +197,16 @@
               <table class="table">
                 <thead>
                   <tr>
-                    <th>Year</th>
-                    <th>Motion To</th>
-                    <th>Vote</th>
+                    <th class="vote-year">Year</th>
+                    <th class="vote-motion">Motion To</th>
+                    <th class="vote-voteresult">Vote</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr ng-repeat="vote in votes" class="{{vote.sentiment}}">
-                    <td>{{vote.year}}</td>
-                    <td>{{vote.motion}}</td>
-                    <td>{{vote.vote}}</td>
+                    <td class="vote-year">{{vote.year}}</td>
+                    <td class="vote-motion">{{vote.motion}}</td>
+                    <td class="vote-voteresult">{{vote.vote}}</td>
                   </tr>
                 </tbody>
               </table>

@@ -338,6 +338,10 @@ img {
   position: relative;
 }
 
+.vote-voteresult {
+  width: 5.25em;
+}
+
 .pulled-quote {
   color: #e51937 !important;
   font-size: 2.3em;
