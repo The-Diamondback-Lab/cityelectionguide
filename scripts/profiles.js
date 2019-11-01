@@ -79,7 +79,7 @@ function parseProfileFile(filename, text) {
   return profile;
 }
 
-var srcDir = './raw_profile_data/';
+var srcDir = './data/profile/';
 
 (async() => {
   let files = await recursiveReaddir(srcDir);
