@@ -1,0 +1,593 @@
+C: Patrick Wojahn
+M: Establish child-care center on Calvert road, allow city to enter partnership with UMD
+Y: 2017
+V: In favor, broke tie
+S: Positive
+
+C: Patrick Wojahn
+M: Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations
+Y: 2016
+V: In favor, broke tie
+S: Positive
+
+C: Patrick Wojahn
+M: Award a contract for the construction of a Duvall Field concession building and plaza
+Y: 2016
+V: In favor, broke tie
+S: Positive
+
+C: Patrick Wojahn
+M: Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events
+Y: 2015
+V: Opposed
+S: Negative
+
+C: Patrick Wojahn
+M: Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court
+Y: 2015
+V: In favor
+S: Positive
+
+C: Mary Cook
+M: Extend municipal voting rights to city residents who are non-U.S. citizens
+Y: 2017
+V: Opposed
+S: Negative
+
+C: Mary Cook
+M: Establish child-care center on Calvert road, allow city to enter partnership with UMD
+Y: 2017
+V: Opposed
+S: Negative
+
+C: Mary Cook
+M: Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program
+Y: 2017
+V: In favor
+S: Positive
+
+C: Mary Cook
+M: Display the Pride flag at City Hall annually for one week during Pride Week
+Y: 2017
+V: Opposed
+S: Negative
+
+C: Mary Cook
+M: Adopt a resolution condemning the Trump administration’s ban on refugees immigrants from seven majority-Muslim countries
+Y: 2017
+V: In favor
+S: Positive
+
+C: Mary Cook
+M: Draft letter in support of Maryland Law Enforcement and Governmental Trust Act, which limits ability of local law enforcement to turn people over for immigration purposes
+Y: 2017
+V: Absent
+S: Neutral
+
+C: Mary Cook
+M: Adopt a resolution welcoming refugees into the city
+Y: 2016
+V: In favor
+S: Positive
+
+C: Mary Cook
+M: Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations
+Y: 2016
+V: Opposed
+S: Negative
+
+C: Mary Cook
+M: Award contract for the construction of a Duvall Field concession building and plaza
+Y: 2016
+V: Opposed
+S: Negative
+
+C: Mary Cook
+M: Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide American Disabilities Act accessibility
+Y: 2016
+V: Opposed
+S: Negative
+
+C: Mary Cook
+M: Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing
+Y: 2016
+V: In favor
+S: Positive
+
+C: Fazlul Kabir
+M: Extend municipal voting rights to city residents who are non-U.S. citizens
+Y: 2017
+V: Abstained
+S: Neutral
+
+C: Fazlul Kabir
+M: Establish child-care center on Calvert road, allow city to enter partnership with UMD
+Y: 2017
+V: Opposed
+S: Negative
+
+C: Fazlul Kabir
+M: Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program
+Y: 2017
+V: In favor
+S: Positive
+
+C: Fazlul Kabir
+M: Display the Pride flag at City Hall annually for one week during Pride Week
+Y: 2017
+V: Abstained
+S: Neutral
+
+C: Fazlul Kabir
+M: Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries
+Y: 2017
+V: In favor
+S: Positive
+
+C: Fazlul Kabir
+M: Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act
+Y: 2017
+V: In favor
+S: Positive
+
+C: Fazlul Kabir
+M: Adopt a resolution welcoming refugees into the city
+Y: 2016
+V: In favor
+S: Positive
+
+C: Fazlul Kabir
+M: Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations
+Y: 2016
+V: Opposed
+S: Negative
+
+C: Fazlul Kabir
+M: Award contract for the construction of a Duvall Field concession building and plaza
+Y: 2016
+V: In favor
+S: Positive
+
+C: Fazlul Kabir
+M: Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide Americans with Disabilities Act accessibility
+Y: 2016
+V: In favor
+S: Positive
+
+C: Fazlul Kabir
+M: Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing anywhere in the county
+Y: 2016
+V: In favor
+S: Positive
+
+C: Fazlul Kabir
+M: Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events
+Y: 2015
+V: Opposed
+S: Negative
+
+C: Fazlul Kabir
+M: Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court
+Y: 2015
+V: Abstained
+S: Neutral
+
+C: P.J. Brennan
+M: Extend municipal voting rights to city residents who are non-U.S. citizens
+Y: 2017
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Establish child-care center on Calvert road, allow city to enter partnership with UMD
+Y: 2017
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program
+Y: 2017
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Display the Pride flag at City Hall annually for one week during Pride Week
+Y: 2017
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries
+Y: 2017
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act
+Y: 2017
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Adopt a resolution welcoming refugees into the city
+Y: 2016
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations
+Y: 2016
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Award contract for the construction of a Duvall Field concession building and plaza
+Y: 2016
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide ADA accessibility
+Y: 2016
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing
+Y: 2016
+V: In favor
+S: Positive
+
+C: P.J. Brennan
+M: Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events
+Y: 2015
+V: Opposed
+S: Negative
+
+C: P.J. Brennan
+M: Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court
+Y: 2015
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Extend municipal voting rights to city residents who are non-U.S. citizens
+Y: 2017
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Establish child-care center on Calvert road, allow city to enter partnership with UMD
+Y: 2017
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program
+Y: 2017
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Display the Pride flag at City Hall annually for one week during Pride Week
+Y: 2017
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries
+Y: 2017
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act
+Y: 2017
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Adopt a resolution welcoming refugees into the city
+Y: 2016
+V: Absent
+S: Neutral
+
+C: Monroe Dennis
+M: Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations
+Y: 2016
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Award contract for the construction of a Duvall Field concession building and plaza
+Y: 2016
+V: Absent
+S: Neutral
+
+C: Monroe Dennis
+M: Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide ADA accessibility
+Y: 2016
+V: Opposed
+S: Negative
+
+C: Monroe Dennis
+M: Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing
+Y: 2016
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events
+Y: 2015
+V: In favor
+S: Positive
+
+C: Monroe Dennis
+M: Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court
+Y: 2015
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Extend municipal voting rights to city residents who are non-U.S. citizens
+Y: 2017
+V: Opposed
+S: Negative
+
+C: Robert Day
+M: Establish child-care center on Calvert road, allow city to enter partnership with UMD
+Y: 2017
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program
+Y: 2017
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Display the Pride flag at City Hall annually for one week during Pride Week
+Y: 2017
+V: Absent
+S: Neutral
+
+C: Robert Day
+M: Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries
+Y: 2017
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act
+Y: 2017
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Adopt a resolution welcoming refugees into the city
+Y: 2016
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations
+Y: 2016
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Award contract for the construction of a Duvall Field concession building and plaza
+Y: 2016
+V: Absent
+S: Neutral
+
+C: Robert Day
+M: Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide ADA accessibility
+Y: 2016
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing
+Y: 2016
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events
+Y: 2015
+V: In favor
+S: Positive
+
+C: Robert Day
+M: Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court
+Y: 2015
+V: In favor
+S: Positive
+
+C: Alan Hew
+M: Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events
+Y: 2015
+V: In favor
+S: Positive
+
+C: Alan Hew
+M: Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court
+Y: 2015
+V: In favor
+S: Positive
+
+C: Alan Hew
+M: Amend the city’s charter to include a policy against discrimination with respect to employment, housing and public accommodation
+Y: 2014
+V: In favor
+S: Positive
+
+C: Alan Hew
+M: Approve a charter resolution to add certain non-discrimination provisions concerning city employment
+Y: 2014
+V: In favor
+S: Positive
+
+C: Alan Hew
+M: Rebuild the new City Hall at its current location rather than starting construction on a new site
+Y: 2014
+V: Opposed
+S: Negative
+
+C: Alan Hew
+M: Lower the minimum required age for office as mayor and as a council member to 18 years old
+Y: 2014
+V: Opposed
+S: Negative
+
+C: Dustyn Kujawa
+M: Extend municipal voting rights to city residents who are non-U.S. citizens
+Y: 2017
+V: Opposed
+S: Negative
+
+C: Dustyn Kujawa
+M: Establish child-care center on Calvert road, allow city to enter partnership with UMD
+Y: 2017
+V: Opposed
+S: Negative
+
+C: Dustyn Kujawa
+M: Support the continuation of DACA by sending letter asking city’s state and federal representatives for their support of the continuation of the program
+Y: 2017
+V: In favor
+S: Positive
+
+C: Dustyn Kujawa
+M: Display the Pride flag at City Hall annually for one week during Pride Week
+Y: 2017
+V: In favor
+S: Positive
+
+C: Dustyn Kujawa
+M: Adopt a resolution condemning the Trump administration’s ban on refugees and immigrants from seven majority-Muslim countries
+Y: 2017
+V: In favor
+S: Positive
+
+C: Dustyn Kujawa
+M: Draft a letter in support of the Maryland Law Enforcement and Governmental Trust Act
+Y: 2017
+V: In favor
+S: Positive
+
+C: Dustyn Kujawa
+M: Adopt a resolution welcoming refugees into the city
+Y: 2016
+V: In favor
+S: Positive
+
+C: Dustyn Kujawa
+M: Spend $60k of $80k in city’s Educational Improvement Fund to fund UMD's summer day camps; allocate remaining funds for grants to schools in line with Education Advisory Committee’s recommendations
+Y: 2016
+V: Opposed
+S: Negative
+
+C: Dustyn Kujawa
+M: Award contract for the construction of a Duvall Field concession building and plaza
+Y: 2016
+V: Opposed
+S: Negative
+
+C: Dustyn Kujawa
+M: Approve a sale contract to purchase two vacant lots for the Hollywood Gateway Park project to provide ADA accessibility
+Y: 2016
+V: In favor
+S: Positive
+
+C: Dustyn Kujawa
+M: Send a letter in support of CB-3-2016, county legislation against hydraulic fracturing
+Y: 2016
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Send a letter to the Board of License Commissioners in support of UMD's proposed one-year trial period to sell beer and wine to patrons at athletic events
+Y: 2015
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Authorize council support for legal document regarding freedom to marry that explains the harm marriage discrimination causes to families and communities, to be filed with the U.S. Supreme Court
+Y: 2015
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Amend the city’s charter to include a general policy against discrimination with respect to employment, housing and public accommodation
+Y: 2014
+V: Opposed
+S: Negative
+
+C: Denise Mitchell
+M: Approve a charter resolution to add certain non-discrimination provisions concerning city employment
+Y: 2014
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Rebuild the new City Hall at its current location rather than starting construction on a new site
+Y: 2014
+V: Opposed
+S: Negative
+
+C: Denise Mitchell
+M: Lower the minimum required age for office as mayor and as a council member to 18 years old
+Y: 2014
+V: Opposed
+S: Negative
+
+C: Denise Mitchell
+M: Send a letter in support of House of Delegates bill HB 337 and a crossfiled state Senate bill, SB 514, which propose to ban the practice of hydraulic fracturing in Maryland
+Y: 2013
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Increase the mayor’s annual salary to $10,500 and each council member’s annual salary to $7,000, effective Jan. 1, 2014. This represented a 40 percent increase
+Y: 2013
+V: Opposed
+S: Negative
+
+C: Denise Mitchell
+M: Extend the effective date of the Rent Stabilization Law through Sept. 1, 2013, to clarify the criteria considered in determining Individual Adjustment of Rent Ceilings and make other changes for clarification and efficiency of enforcement
+Y: 2012
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Approve in principle an application by the College Park City University Partnership to the Prince George’s County Board of Education for the College Park Academy Public Charter School
+Y: 2012
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Send a letter to then-state Sen. Brian Frosh and the Judiciary Proceedings Committee in support of the Religious Freedom and Civil Marriage Protection Act, which would legalize same-sex marriage
+Y: 2011
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Authorize use of the City Hall parking lot for a College Park Farmer’s Market on Sundays
+Y: 2011
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Approve a letter of intent to Prince George’s County Public Schools for the College Park Academy Public Charter School
+Y: 2011
+V: In favor
+S: Positive
+
+C: Denise Mitchell
+M: Authorize the City Manager to explore the installation and deployment of speed cameras in school zones
+Y: 2010
+V: In favor
+S: Positive

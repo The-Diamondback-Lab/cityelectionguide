@@ -207,10 +207,10 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr ng-repeat="vote in votes" class="{{vote.Sentiment}}">
-                    <td>{{vote.Year}}</td>
-                    <td>{{vote['Motion to: ']}}</td>
-                    <td>{{vote.Vote}}</td>
+                  <tr ng-repeat="vote in votes" class="{{vote.sentiment}}">
+                    <td>{{vote.year}}</td>
+                    <td>{{vote.motion}}</td>
+                    <td>{{vote.vote}}</td>
                   </tr>
                 </tbody>
               </table>

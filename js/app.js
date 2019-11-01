@@ -44,7 +44,7 @@ cityApp.controller("main-ctlr", ['$scope','$http','_',"$sce", ($scope, $http, _,
 
   function getVotes(candidate) {
     votesRequest.then(function(data){
-      $scope.votes = _.filter(data, { "Candidate": candidate })
+      $scope.votes = _.filter(data, { candidate })
     });
   }
 
