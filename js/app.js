@@ -17,20 +17,12 @@ LodashFactory.$inject = ['$window'];
 cityApp.factory('_', LodashFactory);
 
 cityApp.controller('main-ctlr', ['$scope','$http','_','$sce', ($scope, $http, _, $sce) => {
-  function loadVoteData() {
-    return $http.get('build/votes.json').then(data => {
-      return data.data;
-    });
+  function req(path) {
+    return $http.get(path).then(data => data.data);
   }
 
-  function loadProfileData() {
-    return $http.get('build/profiles.json').then(data => {
-      return data.data;
-    });
-  }
-
-  profilesRequest = loadProfileData();
-  votesRequest = loadVoteData();
+  profilesRequest = req('build/profiles.json');
+  votesRequest = req('build/votes.json');
 
   $scope.voteData = [];
   $scope.bio = '';
