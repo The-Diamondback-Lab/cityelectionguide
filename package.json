@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A website displaying info about College Park, MD election candidates",
   "scripts": {
-    "build": "echo nul",
+    "build": "node scripts/profiles.js",
     "dev": "http-server -c-1 -d"
   },
   "repository": {
