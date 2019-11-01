@@ -44,7 +44,8 @@ cityApp.controller('main-ctlr', ['$scope','$http','_','$sce', ($scope, $http, _,
 
   function getVotes(candidate) {
     votesRequest.then(data => {
-      $scope.votes = _.filter(data, { candidate })
+      // Filter for vote objects whose candidate property is equal to 'candidate' (case insensitive)
+      $scope.votes = data.filter(v => v.candidate.toLowerCase() === candidate.toLowerCase());
     });
   }
 
