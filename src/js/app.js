@@ -1,4 +1,4 @@
-var cityApp = angular.module('cityApp', ['ngSanitize']);
+let cityApp = angular.module('cityApp', ['ngSanitize']);
 
 function LodashFactory($window) {
   if(!$window._){
