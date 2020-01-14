@@ -4,6 +4,7 @@
   "description": "A website displaying info about College Park, MD election candidates",
   "scripts": {
     "clean": "gulp clean",
+    "prebuild": "npm run clean",
     "build": "gulp build",
     "dev": "node ./dev-server.js"
   },
