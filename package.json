@@ -43,6 +43,7 @@
     "gulp": "^4.0.2",
     "html-minifier": "^4.0.0",
     "mkdirp-promise": "^5.0.1",
+    "ncp": "^2.0.0",
     "recursive-readdir": "^2.2.2",
     "rimraf": "^3.0.0"
   }

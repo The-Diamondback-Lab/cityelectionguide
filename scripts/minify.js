@@ -1,6 +1,8 @@
+const util = require('util');
 const fs = require('fs').promises;
 const path = require('path');
 const mkdirp = require('mkdirp-promise');
+const ncp = util.promisify(require('ncp').ncp);
 const CleanCSS = require('clean-css');
 const babelMinify = require("babel-minify");
 const htmlMinify = require('html-minifier').minify;
@@ -12,7 +14,7 @@ const {
 async function buildMinify() {
   // COPY   src/img -> build/img
   // COPY   src/fonts -> build/fonts
-
+  await copyAssets();
   // MINIFY src/js -> build/js
   await minifyJs();
   // MINIFY src/styles/main.css -> build/styles/main.css
@@ -20,6 +22,19 @@ async function buildMinify() {
   await minifyCss();
   // MINIFY src/index.html -> build/index.html
   await minifyHtml();
+}
+async function copyAssets() {
+  let assetDirs = [ 'img', 'fonts' ];
+
+  let promises = assetDirs.map(d => (async() => {
+    let srcAssetDir = path.resolve(SRC_DIR, d);
+    let outAssetDir = path.resolve(BUILD_DIR, d);
+
+    await mkdirp(outAssetDir);
+    await ncp(srcAssetDir, outAssetDir);
+  })());
+
+  await Promise.all(promises);
 }
 
 async function minifyJs() {
