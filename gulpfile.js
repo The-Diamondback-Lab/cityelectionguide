@@ -7,7 +7,7 @@ const minify = require('minify');
 async function build(cb) {
   await mkdirp('./build');
 
-  await Promise.all(build$CandidateData(), build$Minifiy());
+  await Promise.all([ build$CandidateData(), build$Minify() ]);
 
   cb();
 }
