@@ -1,9 +1,9 @@
 const path = require('path');
 const rimraf = require('rimraf');
 const mkdirp = require('mkdirp-promise');
+const minify = require('minify');
 const buildProfile = require('./scripts/profiles');
 const buildVotes = require('./scripts/votes');
-const minify = require('minify');
 
 const BUILD_DIR = './build';
 const DATA_SRC_DIR = './src/data';
