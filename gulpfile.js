@@ -1,5 +1,5 @@
 const path = require('path');
-const fs = require('fs');
+const fs = require('fs').promises;
 const rimraf = require('rimraf');
 const mkdirp = require('mkdirp-promise');
 const CleanCSS = require('clean-css');
@@ -52,10 +52,10 @@ async function build$Minify$Js() {
   let jsFiles = [ 'app.js' ];
 
   let promises = jsFiles.map(jsFile => (async () => {
-    let data = await fs.promises.readFile(path.resolve(jsDir, jsFile));
+    let data = await fs.readFile(path.resolve(jsDir, jsFile));
     let jsOutput = babelMinify(data.toString());
 
-    await fs.promises.writeFile(path.resolve(BUILD_DIR, 'js', path.basename(jsFile)), jsOutput.code);
+    await fs.writeFile(path.resolve(BUILD_DIR, 'js', path.basename(jsFile)), jsOutput.code);
   })());
 
   await Promise.all(promises);
@@ -85,7 +85,7 @@ async function build$Minify$Css() {
       return;
     }
 
-    await fs.promises.writeFile(path.resolve(BUILD_DIR, 'styles', path.basename(cssFile)), cssOutput.styles);
+    await fs.writeFile(path.resolve(BUILD_DIR, 'styles', path.basename(cssFile)), cssOutput.styles);
   })());
 
   await Promise.all(promises);
@@ -93,7 +93,7 @@ async function build$Minify$Css() {
 
 async function build$Minify$Html() {
   let htmlFile = path.resolve(SRC_DIR, 'index.html');
-  let htmlOutput = htmlMinify(await (await fs.promises.readFile(htmlFile)).toString(), {
+  let htmlOutput = htmlMinify(await (await fs.readFile(htmlFile)).toString(), {
     collapseWhitespace: true,
     removeComments: true,
     removeOptionalTags: true,
@@ -105,7 +105,7 @@ async function build$Minify$Html() {
     minifyJS: true
   });
 
-  await fs.promises.writeFile(path.resolve(BUILD_DIR, 'index.html'), htmlOutput);
+  await fs.writeFile(path.resolve(BUILD_DIR, 'index.html'), htmlOutput);
 }
 
 function clean(cb) {
