@@ -11,7 +11,8 @@ const DATA_SRC_DIR = './src/data';
 async function build(cb) {
   await mkdirp(path.resolve(BUILD_DIR));
 
-  await Promise.all([ build$CandidateData(), build$Minify() ]);
+  await Promise.all([ build$CandidateData(), build$Minify() ])
+    .catch(console.error);
 
   cb();
 }
