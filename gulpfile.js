@@ -3,6 +3,7 @@ const fs = require('fs');
 const rimraf = require('rimraf');
 const mkdirp = require('mkdirp-promise');
 const CleanCSS = require('clean-css');
+const babelMinify = require("babel-minify");
 const buildProfile = require('./scripts/profiles');
 const buildVotes = require('./scripts/votes');
 
@@ -38,7 +39,24 @@ async function build$Minify() {
   // COPY   src/img -> build/img
   // COPY   src/fonts -> build/fonts
 
+  await build$Minify$Js();
   await build$Minify$Css();
+}
+
+async function build$Minify$Js() {
+  await mkdirp(path.resolve(BUILD_DIR, 'js'));
+
+  let jsDir = path.resolve(SRC_DIR, 'js');
+  let jsFiles = [ 'app.js' ];
+
+  let promises = jsFiles.map(jsFile => (async () => {
+    let data = await fs.promises.readFile(path.resolve(jsDir, jsFile));
+    let jsOutput = babelMinify(data.toString());
+
+    await fs.promises.writeFile(path.resolve(BUILD_DIR, 'js', path.basename(jsFile)), jsOutput.code);
+  })());
+
+  await Promise.all(promises);
 }
 
 async function build$Minify$Css() {

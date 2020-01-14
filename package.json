@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/The-Diamondback-Lab/cityelectionguide#readme",
   "devDependencies": {
+    "babel-minify": "^0.5.1",
     "clean-css": "^4.2.1",
     "express": "^4.17.1",
     "gulp": "^4.0.2",
