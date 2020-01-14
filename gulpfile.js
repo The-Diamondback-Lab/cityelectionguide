@@ -70,32 +70,23 @@ async function build$Minify$Css() {
     rebaseTo: styleDir
   });
 
-  let promises = cssFiles.map(cssFile =>
-    new Promise((resolve, reject) => {
-      // Minify the file
-      let cssOutput = minCss.minify([ path.resolve(styleDir, cssFile) ]);
+  let promises = cssFiles.map(cssFile => (async() => {
+    // Minify the file
+    let cssOutput = minCss.minify([ path.resolve(styleDir, cssFile) ]);
 
-      // Check for warnings and errors (and indicate which file it came from)
-      // Output warnings before errors
-      if (cssOutput.warnings.length > 0) {
-        console.warn(JSON.stringify({ cssFile, warnings: cssOutput.warnings }));
-      }
+    // Check for warnings and errors (and indicate which file it came from)
+    // Output warnings before errors
+    if (cssOutput.warnings.length > 0) {
+      console.warn(JSON.stringify({ cssFile, warnings: cssOutput.warnings }));
+    }
 
-      if (cssOutput.errors.length > 0) {
-        reject(JSON.stringify({ cssFile, errors: cssOutput.errors }));
-        return;
-      }
+    if (cssOutput.errors.length > 0) {
+      reject(JSON.stringify({ cssFile, errors: cssOutput.errors }));
+      return;
+    }
 
-      // Write out the minified CSS to the build directory with the same basename
-      fs.writeFile(path.resolve(BUILD_DIR, 'styles', path.basename(cssFile)), cssOutput.styles, err => {
-        if (err) {
-          reject(err);
-        } else {
-          resolve();
-        }
-      });
-    })
-  );
+    await fs.promises.writeFile(path.resolve(BUILD_DIR, 'styles', path.basename(cssFile)), cssOutput.styles);
+  })());
 
   await Promise.all(promises);
 }
