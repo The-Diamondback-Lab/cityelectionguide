@@ -17,12 +17,14 @@ async function build(cb) {
 }
 
 async function build$CandidateData() {
+  await mkdirp(path.resolve(BUILD_DIR, 'content'));
+
   let profiles = await buildProfile(path.resolve(DATA_SRC_DIR, 'profiles'),
-    path.resolve(BUILD_DIR, 'profiles.json'));
+    path.resolve(BUILD_DIR, 'content/profiles.json'));
 
   let nameMap = new Map(profiles.map(p => [p.fullName.split(' ').pop(), p.fullName]));
   await buildVotes(path.resolve(DATA_SRC_DIR, 'votes.tsv'), nameMap,
-    path.resolve(BUILD_DIR, 'votes.json'));
+    path.resolve(BUILD_DIR, 'content/votes.json'));
 }
 
 async function build$Minify() {
