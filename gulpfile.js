@@ -1,7 +1,7 @@
-var rimraf = require('rimraf');
-var mkdirp = require('mkdirp-promise');
-var buildProfile = require('./scripts/profiles');
-var buildVotes = require('./scripts/votes');
+const rimraf = require('rimraf');
+const mkdirp = require('mkdirp-promise');
+const buildProfile = require('./scripts/profiles');
+const buildVotes = require('./scripts/votes');
 
 async function build(cb) {
   await mkdirp('./build');
