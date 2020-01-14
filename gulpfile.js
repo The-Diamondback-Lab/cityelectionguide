@@ -1,21 +1,35 @@
-var rimraf = require('rimraf');
-var mkdirp = require('mkdirp-promise');
-var buildProfile = require('./scripts/profiles');
-var buildVotes = require('./scripts/votes');
+const path = require('path');
+const rimraf = require('rimraf');
+const mkdirp = require('mkdirp-promise');
+const buildProfile = require('./scripts/profiles');
+const buildVotes = require('./scripts/votes');
+const buildMinify = require('./scripts/minify');
+
+const {
+  BUILD_DIR, DATA_SRC_DIR
+} = require('./scripts/constants');
 
 async function build(cb) {
-  await mkdirp('./build');
+  await mkdirp(path.resolve(BUILD_DIR));
 
-  let profiles = await buildProfile('./data/profiles/', 'build/profiles.json');
+  await Promise.all([ buildCandidateData(), buildMinify() ])
+    .then(() => cb())
+    .catch(cb);
+}
+
+async function buildCandidateData() {
+  await mkdirp(path.resolve(BUILD_DIR, 'content'));
+
+  let profiles = await buildProfile(path.resolve(DATA_SRC_DIR, 'profiles'),
+    path.resolve(BUILD_DIR, 'content/profiles.json'));
 
   let nameMap = new Map(profiles.map(p => [p.fullName.split(' ').pop(), p.fullName]));
-  await buildVotes('./data/votes.tsv', nameMap, 'build/votes.json');
-
-  cb();
+  await buildVotes(path.resolve(DATA_SRC_DIR, 'votes.tsv'), nameMap,
+    path.resolve(BUILD_DIR, 'content/votes.json'));
 }
 
 function clean(cb) {
-  rimraf('./build', err => {
+  rimraf(path.resolve(BUILD_DIR), err => {
     cb(err);
   });
 }

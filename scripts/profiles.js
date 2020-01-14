@@ -1,5 +1,5 @@
-var fs = require('fs');
-var recursiveReaddir = require('recursive-readdir');
+const fs = require('fs');
+const recursiveReaddir = require('recursive-readdir');
 
 /**
  * A set of warning directives that are intended to be used as
@@ -98,7 +98,9 @@ function parseProfileFile(filename, text) {
  */
 function buildProfile(srcDir, output) {
   return new Promise(async (resolve, reject) => {
+    // List files in directory and only list .txt files
     let files = await recursiveReaddir(srcDir);
+    files = files.filter(f => f.endsWith('.txt'));
 
     // Go over every file in the src directory and parse each file as a candidate profile
     /**

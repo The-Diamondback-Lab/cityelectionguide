@@ -1,4 +1,4 @@
-var cityApp = angular.module('cityApp', ['ngSanitize']);
+let cityApp = angular.module('cityApp', ['ngSanitize']);
 
 function LodashFactory($window) {
   if(!$window._){
@@ -21,8 +21,8 @@ cityApp.controller('main-ctlr', ['$scope','$http','_','$sce', ($scope, $http, _,
     return $http.get(path).then(data => data.data);
   }
 
-  profilesRequest = req('build/profiles.json');
-  votesRequest = req('build/votes.json');
+  profilesRequest = req('content/profiles.json');
+  votesRequest = req('content/votes.json');
 
   $scope.voteData = [];
   $scope.bio = '';

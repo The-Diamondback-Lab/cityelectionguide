@@ -4,8 +4,9 @@
   "description": "A website displaying info about College Park, MD election candidates",
   "scripts": {
     "clean": "gulp clean",
+    "prebuild": "npm run clean",
     "build": "gulp build",
-    "dev": "npm run build && http-server -c-1 -d"
+    "dev": "node ./dev-server.js"
   },
   "repository": {
     "type": "git",
@@ -36,9 +37,13 @@
   },
   "homepage": "https://github.com/The-Diamondback-Lab/cityelectionguide#readme",
   "devDependencies": {
+    "babel-minify": "^0.5.1",
+    "clean-css": "^4.2.1",
+    "express": "^4.17.1",
     "gulp": "^4.0.2",
-    "http-server": "^0.11.1",
+    "html-minifier": "^4.0.0",
     "mkdirp-promise": "^5.0.1",
+    "ncp": "^2.0.0",
     "recursive-readdir": "^2.2.2",
     "rimraf": "^3.0.0"
   }
