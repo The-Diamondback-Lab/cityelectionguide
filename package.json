@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp build",
-    "dev": "npm run build && http-server -c-1 -d"
+    "dev": "node ./dev-server.js"
   },
   "repository": {
     "type": "git",
