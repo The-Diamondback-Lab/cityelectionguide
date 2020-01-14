@@ -2,6 +2,7 @@ const rimraf = require('rimraf');
 const mkdirp = require('mkdirp-promise');
 const buildProfile = require('./scripts/profiles');
 const buildVotes = require('./scripts/votes');
+const minify = require('minify');
 
 async function build(cb) {
   await mkdirp('./build');
