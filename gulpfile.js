@@ -32,14 +32,14 @@ async function build$CandidateData() {
 }
 
 async function build$Minify() {
-  // MINIFY src/js -> build/js
-  // MINIFY src/styles/main.css -> build/styles/main.css
-  // COPY   src/styles/spinner.css -> build/styles/spinner.css
   // MINIFY src/index.html -> build/index.html
   // COPY   src/img -> build/img
   // COPY   src/fonts -> build/fonts
 
+  // MINIFY src/js -> build/js
   await build$Minify$Js();
+  // MINIFY src/styles/main.css -> build/styles/main.css
+  // COPY   src/styles/spinner.css -> build/styles/spinner.css
   await build$Minify$Css();
 }
 
