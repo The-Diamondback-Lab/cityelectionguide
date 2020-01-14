@@ -1,5 +1,5 @@
-var fs = require('fs');
-var recursiveReaddir = require('recursive-readdir');
+const fs = require('fs');
+const recursiveReaddir = require('recursive-readdir');
 
 /**
  * A set of warning directives that are intended to be used as
