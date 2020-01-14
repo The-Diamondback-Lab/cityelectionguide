@@ -4,6 +4,7 @@ const rimraf = require('rimraf');
 const mkdirp = require('mkdirp-promise');
 const CleanCSS = require('clean-css');
 const babelMinify = require("babel-minify");
+const htmlMinify = require('html-minifier').minify;
 const buildProfile = require('./scripts/profiles');
 const buildVotes = require('./scripts/votes');
 
@@ -32,7 +33,6 @@ async function build$CandidateData() {
 }
 
 async function build$Minify() {
-  // MINIFY src/index.html -> build/index.html
   // COPY   src/img -> build/img
   // COPY   src/fonts -> build/fonts
 
@@ -41,6 +41,8 @@ async function build$Minify() {
   // MINIFY src/styles/main.css -> build/styles/main.css
   // COPY   src/styles/spinner.css -> build/styles/spinner.css
   await build$Minify$Css();
+  // MINIFY src/index.html -> build/index.html
+  await build$Minify$Html();
 }
 
 async function build$Minify$Js() {
@@ -96,6 +98,23 @@ async function build$Minify$Css() {
   );
 
   await Promise.all(promises);
+}
+
+async function build$Minify$Html() {
+  let htmlFile = path.resolve(SRC_DIR, 'index.html');
+  let htmlOutput = htmlMinify(await (await fs.promises.readFile(htmlFile)).toString(), {
+    collapseWhitespace: true,
+    removeComments: true,
+    removeOptionalTags: true,
+    removeRedundantAttributes: true,
+    removeScriptTypeAttributes: true,
+    removeTagWhitespace: true,
+    useShortDoctype: true,
+    minifyCSS: true,
+    minifyJS: true
+  });
+
+  await fs.promises.writeFile(path.resolve(BUILD_DIR, 'index.html'), htmlOutput);
 }
 
 function clean(cb) {
